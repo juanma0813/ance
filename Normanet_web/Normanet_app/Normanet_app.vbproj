@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{F86B0DFB-6E99-4E94-85AF-9C2781E67DCB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Normanet_app</RootNamespace>
+    <AssemblyName>Normanet_app</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>enabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+    <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Normanet_app.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Normanet_app.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="clsAnceDe">
+      <HintPath>..\DllsCompartidas\clsAnceDe.dll</HintPath>
+    </Reference>
+    <Reference Include="clsBoxing">
+      <HintPath>..\DllsCompartidas\clsBoxing.dll</HintPath>
+    </Reference>
+    <Reference Include="clsSendMail">
+      <HintPath>..\DllsCompartidas\clsSendMail.dll</HintPath>
+    </Reference>
+    <Reference Include="clsSistemasGruposModulos">
+      <HintPath>..\DllsCompartidas\clsSistemasGruposModulos.dll</HintPath>
+    </Reference>
+    <Reference Include="Elmah">
+      <HintPath>..\DllsCompartidas\Elmah.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\DllsCompartidas\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\DllsCompartidas\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Catalogos\Cargos.aspx" />
+    <Content Include="Catalogos\CategoriaRevEditorial.aspx" />
+    <Content Include="Catalogos\Categorias.aspx" />
+    <Content Include="Catalogos\Comite.aspx" />
+    <Content Include="Catalogos\Directorio.aspx" />
+    <Content Include="Catalogos\DirectorioCargos.aspx" />
+    <Content Include="Catalogos\NivelCargo.aspx" />
+    <Content Include="Catalogos\Nombramientos.aspx" />
+    <Content Include="Catalogos\PuntosRevEditorial.aspx" />
+    <Content Include="Catalogos\Remitente.aspx" />
+    <Content Include="Catalogos\ReporteAsistencia.aspx" />
+    <Content Include="Catalogos\Representacion.aspx" />
+    <Content Include="Catalogos\ResumenNombramiento.aspx" />
+    <Content Include="Catalogos\Sectores.aspx" />
+    <Content Include="Catalogos\TitularesSuplentes.aspx" />
+    <Content Include="css\cssCuentaRegresiva.css" />
+    <Content Include="css\cssGeneral.css" />
+    <Content Include="css\cssGeneralFrm.css" />
+    <Content Include="css\cssIndex.css" />
+    <Content Include="Imagenes\Botoneras\Book-Settings-16.png" />
+    <Content Include="Imagenes\Botoneras\cargos.png" />
+    <Content Include="Imagenes\Botoneras\Catalogos.png" />
+    <Content Include="Imagenes\Botoneras\Catalogos2.png" />
+    <Content Include="Imagenes\Botoneras\Clean-16.png" />
+    <Content Include="Imagenes\Botoneras\Connotea16.png" />
+    <Content Include="Imagenes\Botoneras\Copy-16.png" />
+    <Content Include="Imagenes\Botoneras\Cut-16.png" />
+    <Content Include="Imagenes\Botoneras\Delete_32.png" />
+    <Content Include="Imagenes\Botoneras\derecha.png" />
+    <Content Include="Imagenes\Botoneras\down.png" />
+    <Content Include="Imagenes\Botoneras\Edit.png" />
+    <Content Include="Imagenes\Botoneras\enabled.png" />
+    <Content Include="Imagenes\Botoneras\exit.png" />
+    <Content Include="Imagenes\Botoneras\exit1.png" />
+    <Content Include="Imagenes\Botoneras\Flow-Cart-16.png" />
+    <Content Include="Imagenes\Botoneras\Graph-16.png" />
+    <Content Include="Imagenes\Botoneras\inhabilitar.png" />
+    <Content Include="Imagenes\Botoneras\izquierda.png" />
+    <Content Include="Imagenes\Botoneras\level.png" />
+    <Content Include="Imagenes\Botoneras\Link-32.png" />
+    <Content Include="Imagenes\Botoneras\New.png" />
+    <Content Include="Imagenes\Botoneras\Paint-Brush-16.png" />
+    <Content Include="Imagenes\Botoneras\Password.png" />
+    <Content Include="Imagenes\Botoneras\Paste-32.png" />
+    <Content Include="Imagenes\Botoneras\Picture-Frame-32.png" />
+    <Content Include="Imagenes\Botoneras\pnn.png" />
+    <Content Include="Imagenes\Botoneras\Redo.png" />
+    <Content Include="Imagenes\Botoneras\Save.png" />
+    <Content Include="Imagenes\Botoneras\Shape-32.png" />
+    <Content Include="Imagenes\Botoneras\traspaso.png" />
+    <Content Include="Imagenes\Botoneras\up.png" />
+    <Content Include="Imagenes\Formularios\Accept-32.png" />
+    <Content Include="Imagenes\Formularios\Bell.png" />
+    <Content Include="Imagenes\Formularios\Cancel-32.png" />
+    <Content Include="Imagenes\Formularios\Employee.png" />
+    <Content Include="Imagenes\Formularios\Fondo.png" />
+    <Content Include="Imagenes\Formularios\loading_small.gif" />
+    <Content Include="Imagenes\Formularios\LogoAnce.png" />
+    <Content Include="Imagenes\Formularios\page-bg.gif" />
+    <Content Include="Imagenes\Formularios\page-bg.png" />
+    <Content Include="Imagenes\Grids\Delete_16.png" />
+    <Content Include="Imagenes\Grids\Picture_24.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker.css" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker.min.css" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker.standalone.css" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker.standalone.min.css" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker3.css" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker3.min.css" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker3.standalone.css" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker3.standalone.min.css" />
+    <Content Include="js\bootstrapdatepicker\js\bootstrap-datepicker.js" />
+    <Content Include="js\bootstrapdatepicker\js\bootstrap-datepicker.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.ar.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.az.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.bg.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.bs.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.ca.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.cs.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.cy.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.da.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.de.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.el.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.en-GB.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.eo.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.es.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.et.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.eu.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.fa.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.fi.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.fo.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.fr-CH.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.fr.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.gl.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.he.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.hr.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.hu.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.hy.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.id.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.is.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.it-CH.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.it.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.ja.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.ka.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.kh.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.kk.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.ko.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.kr.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.lt.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.lv.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.me.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.mk.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.mn.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.ms.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.nb.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.nl-BE.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.nl.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.no.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.pl.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.pt-BR.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.pt.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.ro.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.rs-latin.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.rs.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.ru.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.sk.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.sl.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.sq.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.sr-latin.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.sr.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.sv.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.sw.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.th.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.tr.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.uk.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.vi.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.zh-CN.min.js" />
+    <Content Include="js\bootstrapdatepicker\locales\bootstrap-datepicker.zh-TW.min.js" />
+    <Content Include="js\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="js\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="js\bootstrap\css\bootstrap.css" />
+    <Content Include="js\bootstrap\css\bootstrap.min.css" />
+    <Content Include="js\bootstrap\css\bootstrapCustom.css" />
+    <Content Include="js\bootstrap\css\simple-sidebar.css" />
+    <Content Include="js\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="js\bootstrap\js\bootstrap.js" />
+    <Content Include="js\bootstrap\js\bootstrap.min.js" />
+    <Content Include="js\Index.js" />
+    <Content Include="js\jQueryFrameWork.js" />
+    <Content Include="js\jsMenuBaseMultiVentanas.js" />
+    <Content Include="js\jsTelerik.js" />
+    <Content Include="js\jsGeneral.js" />
+    <Content Include="js\jsGeneralFrm.js" />
+    <Content Include="js\plugins\jquery.bubbleinfo\css\cssBubbleInfo.css" />
+    <Content Include="js\plugins\jquery.bubbleinfo\jquery.bubbleinfo.js" />
+    <Content Include="js\plugins\jquery.template\jquery.tmpl.js" />
+    <Content Include="Procesos\CatalogoNormas.aspx" />
+    <Content Include="Procesos\pnn.aspx" />
+    <Content Include="Procesos\PnnTemas.aspx" />
+    <Content Include="Procesos\TraspasoTemaPlanes.aspx" />
+    <Content Include="Reglas\ReglasPlantilla.txt" />
+    <Content Include="Web.config" />
+    <Content Include="Test.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\RadComboBox.es-MX.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadComboBox.es-MX.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadDataPager.Main.es-MX.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadDataPager.Main.es-MX.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadFilter.Main.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadFilter.Main.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadFilter.Main.es-MX.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadFilter.Main.es-MX.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadGrid.Main.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadGrid.Main.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadGrid.Main.es-MX.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadGrid.Main.es-MX.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadMonthYearPicker.Main.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadMonthYearPicker.Main.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadMonthYearPicker.Main.es-MX.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadMonthYearPicker.Main.es-MX.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\RadWindowManager.Main.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RadWindowManager.Main.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Cargos.aspx.designer.vb">
+      <DependentUpon>Cargos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Cargos.aspx.vb">
+      <DependentUpon>Cargos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\CategoriaRevEditorial.aspx.designer.vb">
+      <DependentUpon>CategoriaRevEditorial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\CategoriaRevEditorial.aspx.vb">
+      <DependentUpon>CategoriaRevEditorial.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Categorias.aspx.designer.vb">
+      <DependentUpon>Categorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Categorias.aspx.vb">
+      <DependentUpon>Categorias.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Comite.aspx.designer.vb">
+      <DependentUpon>Comite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Comite.aspx.vb">
+      <DependentUpon>Comite.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Directorio.aspx.designer.vb">
+      <DependentUpon>Directorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Directorio.aspx.vb">
+      <DependentUpon>Directorio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\DirectorioCargos.aspx.designer.vb">
+      <DependentUpon>DirectorioCargos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\DirectorioCargos.aspx.vb">
+      <DependentUpon>DirectorioCargos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\NivelCargo.aspx.designer.vb">
+      <DependentUpon>NivelCargo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\NivelCargo.aspx.vb">
+      <DependentUpon>NivelCargo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Nombramientos.aspx.designer.vb">
+      <DependentUpon>Nombramientos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Nombramientos.aspx.vb">
+      <DependentUpon>Nombramientos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\PuntosRevEditorial.aspx.designer.vb">
+      <DependentUpon>PuntosRevEditorial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\PuntosRevEditorial.aspx.vb">
+      <DependentUpon>PuntosRevEditorial.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Remitente.aspx.designer.vb">
+      <DependentUpon>Remitente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Remitente.aspx.vb">
+      <DependentUpon>Remitente.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\ReporteAsistencia.aspx.designer.vb">
+      <DependentUpon>ReporteAsistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\ReporteAsistencia.aspx.vb">
+      <DependentUpon>ReporteAsistencia.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Representacion.aspx.designer.vb">
+      <DependentUpon>Representacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Representacion.aspx.vb">
+      <DependentUpon>Representacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\ResumenNombramiento.aspx.designer.vb">
+      <DependentUpon>ResumenNombramiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\ResumenNombramiento.aspx.vb">
+      <DependentUpon>ResumenNombramiento.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Sectores.aspx.designer.vb">
+      <DependentUpon>Sectores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Sectores.aspx.vb">
+      <DependentUpon>Sectores.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Catalogos\TitularesSuplentes.aspx.designer.vb">
+      <DependentUpon>TitularesSuplentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\TitularesSuplentes.aspx.vb">
+      <DependentUpon>TitularesSuplentes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="clss\clssArchTemp.vb" />
+    <Compile Include="clss\clssConverArchImgAByte.vb" />
+    <Compile Include="clss\clssConvertListClassAXml.vb" />
+    <Compile Include="clss\clssDatosLigaXML.vb" />
+    <Compile Include="clss\clssHash.vb" />
+    <Compile Include="clss\clssLinkDocSeguro.vb" />
+    <Compile Include="clss\clssRotarImagen.vb" />
+    <Compile Include="clss\clssSeguridad.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clss\clssSendMail.vb" />
+    <Compile Include="clss\General.vb" />
+    <Compile Include="clss\Mensaje.vb" />
+    <Compile Include="Enumeradores\EnumBtns.vb" />
+    <Compile Include="Index.aspx.designer.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.vb">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mpFormularios.Master.designer.vb">
+      <DependentUpon>mpFormularios.Master</DependentUpon>
+    </Compile>
+    <Compile Include="mpFormularios.Master.vb">
+      <DependentUpon>mpFormularios.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Procesos\CatalogoNormas.aspx.designer.vb">
+      <DependentUpon>CatalogoNormas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\CatalogoNormas.aspx.vb">
+      <DependentUpon>CatalogoNormas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\pnn.aspx.designer.vb">
+      <DependentUpon>pnn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\pnn.aspx.vb">
+      <DependentUpon>pnn.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\PnnTemas.aspx.designer.vb">
+      <DependentUpon>PnnTemas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\PnnTemas.aspx.vb">
+      <DependentUpon>PnnTemas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Procesos\TraspasoTemaPlanes.aspx.designer.vb">
+      <DependentUpon>TraspasoTemaPlanes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\TraspasoTemaPlanes.aspx.vb">
+      <DependentUpon>TraspasoTemaPlanes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.vb">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.vb">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\RadComboBox.es-MX.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadComboBox.es-MX.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RadDataPager.Main.es-MX.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadDataPager.Main.es-MX.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RadFilter.Main.es-MX.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadFilter.Main.es-MX.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RadFilter.Main.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadFilter.Main.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RadGrid.Main.es-MX.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadGrid.Main.es-MX.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RadGrid.Main.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadGrid.Main.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RadMonthYearPicker.Main.es-MX.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadMonthYearPicker.Main.es-MX.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RadMonthYearPicker.Main.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadMonthYearPicker.Main.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="App_GlobalResources\RadWindowManager.Main.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>RadWindowManager.Main.designer.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\Grids\Grids.metrop" />
+    <Content Include="Imagenes\Botoneras\Botonenas.metrop" />
+    <Content Include="Imagenes\Botoneras\BotoneraPrincipal.metrop" />
+    <Content Include="mpFormularios.Master" />
+    <Content Include="js\bootstrap\config.json" />
+    <Content Include="js\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="js\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="js\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="js\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker.css.map" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker.min.css.map" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker.standalone.css.map" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker.standalone.min.css.map" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker3.css.map" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker3.min.css.map" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker3.standalone.css.map" />
+    <Content Include="js\bootstrapdatepicker\css\bootstrap-datepicker3.standalone.min.css.map" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1708/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

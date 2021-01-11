@@ -1,0 +1,81 @@
+-----Version	1.6 ----- Mejoras--------------------------------------------
+	Se cambio en zIndex de los mensajes de jQuery para que salieran adelante de los controles Telerik
+	Se agregaron dos contentPlaceholder a la master para agregar archivos Js y archivos Css directamente al head de la master
+	Se cmbio el renderMode del control RadWindowManager a Classic
+	Se cambio el metodo OpenWindow con el fin de que las ventanas salgan no muy abajo y centradas
+
+-----Version	1.5 ----- Mejoras--------------------------------------------
+	Se cambio el Tema de Windows7 por Office2010Blue
+	Se agrego una barra de titulo en la parte superior de la plantilla para indicar el nombre del sistema
+	Se modifico el archivo jQueryFramework para que las ligas apuntaran a https en lugar de http
+	Se agrego un div con la imagen de ANCE al centro de la plantilla
+	Se modifico el archivo cssGeneralFrm para que incluya el tipo de letra Arial
+	Se quita Customize Scroll Bar
+	Se agrega un metodo en General.vb que se llama RegistrarError con el fin de registrar errores con Elmah
+
+-----Version	1.4 ----- Mejoras--------------------------------------------
+	Se cambiaron las ventanas de Jquery por ventanas de Telerik, ya que estas tienen mas estabilidad
+-----------------------------Actualizar plantilla a v1.3--------------------
+
+-----Version	1.3 ----- Mejoras--------------------------------------------
+	Se mejora el Plugin de window para que al arrastrar no cause conflicto con los iframe
+	ya se puede abrir una ventana desde otra ventana
+	El metodo AddWindow se agrego a General.vb
+	Se acmbioron los parametros de addWindow
+-----------------------------Actualizar plantilla a v1.3--------------------
+1. Cambiar General.vb por el nuevo
+2. Cambiar todos los metodos AddWindow para agregar los dos neuvos parametros	(se recomienda hacer replace)
+3. Cambiar el archivo jqueryframework por el nuevo
+4. cambiar el archivo jsGeneralFrm por el nuevo
+5. Cambiar el archivo jsGeneral por el nuevo
+
+-----Version	1.2 ----- Mejoras--------------------------------------------
+	 Se cambio el metodo para llamar las ventanas
+	 se creo u plug llamado windows para llamar a las formularios
+	 Nuevo skin
+
+-----------------------------Actualizar plantilla a v1.6--------------------
+1.	En el archivo General.vb localizar el metodo MsgJquery y dentro del metodo dialog de javascript despues del atributo title agregar zIndex:'4001' (o copiar la linea de esta plantilla)
+2.	copiar el control cphCss que se encuentra en el archivo mpFormulario.Master de esta plantilla y copiarlo en el mismo archivo de tu plantilla, inmediatamente des pues de la referencia css/cssGeneralFrm.css
+2.1 copiar el control cphJs que se encuentra en el archivo mpFormulario.Master de esta plantilla y copiarlo en el mismo archivo de tu plantilla, inmediatamente des pues de la referencia js/jsDemoMenuBaseMultiVentanas.js
+3	Cambiar el Render del control RadWindowManager que se encuentra en el Index.aspx por Classic
+4	Copiar el metodo OpenWindow de esta plantilla y reemplazarlo en tu plantilla
+
+-----------------------------Actualizar plantilla a v1.5--------------------
+1.	Reemplaza en tuda tu solucion los textos Windows7 por Office2010Blue.
+2.	Agrega en tu plantilla en la pagina index el control de "esta" plantilla que se encuentra en la misma pagina con el nombre "rtbTitulo" arriba de tu RadRibbonBar principal.
+3.	Abre el archivo JqueryFrameWork.js y reemplaza http por https.
+4.	Agrega la Imagen de de "esta" plantilla que se llama LogoAnce.png que esta dentro de Imagenes/formularios en la misma ruta en tu plantilla.
+4.1 Dentro del Div con el Id AreaRestringida que se encuentra en la pagina Index pega lo siguiente: <div id="LogoAnce"></div>
+4.2	Abre el archivo cssGeneral de tu plantilla y pega el objeto #LogoAnce{} de "esta" plantilla que se encuentra en el mismo archivo
+5.	Abre el archivo cssGeneralFrm.css y en la objeto html{} agrega font-family:Arial;
+6.  Eliminar del archico jQueryFrameWork las referencias al plugin "Customize Scroll Bar"
+6.1 Eliminar del archivo jsGeneralFrm.js la llamada al plugin "Customize Scroll Bar" (por lo regular son las primeras 3 lineas)
+7.  Copiar el metodo RegistrarError que se encuentra en el archivo General.vb de esta plantilla y copiarlo en el mismo archivo de tu plantilla
+
+-----------------------------Actualizar plantilla a v1.4--------------------
+1. Agregar a Index en el HTML el codigo que aparece en el nuevo Index de la linea  75 - 90  (puede variar , los controles son:RadWindowManager,RadCodeBlock, UpdatePanel) despues del objeto "AreaRestringida"
+2. en el Codebehing de Index.aspx Agregar el metodo que sale en el nuevo index en la línea 21 (OpenWindow)
+3. Cambiar el metodo de llamar a la ventana por el siguiente OpenWindow("Test.aspx", "..:: Test ::.. - borrame3", 400, 400), donde es, Pagina, Titulo Largo y Alto
+-----------------------------Actualizar plantilla a v1.2--------------------
+1. 		Cambiar cssGeneral.css y cssGeneralFrm por los css de la nueva plantilla
+1.1 	Los archivos anteriores no deben modificarse nunca y su nombre siempre debe ser el mencionado en el punto anterior
+2. 		Cambiar jsGeneral.js y jsGeneralFrm por el js de la nueva plantilla
+2.1 	Los archivos anteriores no deben modificarse nunca y su nombre siempre debe ser el mencionado en el punto anterior
+3.		cambiar el skin del control rbbRibbon en la pagina index por el de la nueva plantilla	[Windows7]
+4.		cambiar stylesheet de mpFormularios y de Index por el de la nueva plantilla [http://www.ance.org.mx/jquery/1_10_3/JqueryFramework/themes/Cupertino/jquery.ui.all.css]
+5.		Cambiar los skin de las botoneras en cada pagina por la de la nueva plantilla	[Windows7] te recomiendo utilizar un reemplazar a toda la solucion por el nuevo estilo
+6.		Cambiar el color de los iconos de los formularios por los tamaños mencionados en Reglas de plantilla punto 5
+7.		Cambiar el tamaño de las botoneras por [32]
+8.		Cambiar el archivo general.vb por el de la plantilla
+9.		Reemplazar en todo el proyecto [Skin="Default"] por [SkinID="SkinManager"]
+-----------------------------Reglas de plantilla-----------------------------
+1. 	Si agregas un js debe tener nombrarse	js[NombreProyecto].js	-> jsMiproyecto.js
+2.	Si agregas un css debe tener nombrarse	css[NombreProyecto].css	-> cssMiproyecto.css
+3.	los js y css de la plantilla no se editan ni se agraga nada
+4.	El color de los iconos del ribbon debe ser []
+5.	El color de los iconos de formulario debe ser [#FF3393CD] Size [24] Padding [0] sin background shape. Para Grids los iconos son de [16] padding [0]
+5.1 Se pueden agregar imagenes con shape redondo size [24] padding [5] para casos como los de confirmar alguna accion.
+6.	Utilizar el software SyncFusion Metro Studio 2 para los iconos y guardar el archivo .metro en el mismo proyecto en la misma carpeta donde se encuentren las imagenes
+7.  si vas a usar un skin para algun control debe no uses [skin=""] usa [SkinID="SkinManager"]
+

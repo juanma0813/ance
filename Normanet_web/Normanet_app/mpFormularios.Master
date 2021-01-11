@@ -1,0 +1,28 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="mpFormularios.master.vb" Inherits="Normanet_app.mpFormularios" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head2" runat="server">
+<title></title>
+
+<link href="css/cssGeneralFrm.css" rel="stylesheet" />
+<asp:ContentPlaceHolder ID="cphCss" runat="server"></asp:ContentPlaceHolder>
+<script src="js/jQueryFrameWork.js"></script>
+<script src="js/jsGeneralFrm.js"></script>
+<script src="js/jsMenuBaseMultiVentanas.js"></script>
+<asp:ContentPlaceHolder ID="cphJs" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+    <body>
+        <form id="form1" runat="server">
+            <telerik:RadScriptManager ID="RadScriptManager1" runat="server" EnablePageMethods="True"></telerik:RadScriptManager>
+            <telerik:RadSkinManager ID="SkinManager" runat="server" Skin="Simple"></telerik:RadSkinManager>
+            <telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" SkinID="SkinManager" />
+            <div class="contenido">
+                <asp:ContentPlaceHolder ID="cphAreaTrabajo" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </body>
+</html>

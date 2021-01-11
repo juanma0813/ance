@@ -1,0 +1,1821 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DemoMenuBaseMultiVentanas
+</name>
+</assembly>
+<members>
+<member name="T:DemoMenuBaseMultiVentanas.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.Culture">
+<summary>
+  Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.AddExpressionToolTip">
+<summary>
+  Busca una cadena traducida similar a Add Expression.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.AddGroupToolTip">
+<summary>
+  Busca una cadena traducida similar a Add Group.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.ApplyButtonText">
+<summary>
+  Busca una cadena traducida similar a Apply.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.BetweenDelimeterText">
+<summary>
+  Busca una cadena traducida similar a And.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionBetween">
+<summary>
+  Busca una cadena traducida similar a Between.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionContains">
+<summary>
+  Busca una cadena traducida similar a Contains.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionDoesNotContain">
+<summary>
+  Busca una cadena traducida similar a DoesNotContain.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionEndsWith">
+<summary>
+  Busca una cadena traducida similar a EndsWith.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionEqualTo">
+<summary>
+  Busca una cadena traducida similar a EqualTo.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionGreaterThan">
+<summary>
+  Busca una cadena traducida similar a GreaterThan.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionGreaterThanOrEqualTo">
+<summary>
+  Busca una cadena traducida similar a GreaterThanOrEqualTo.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionIsEmpty">
+<summary>
+  Busca una cadena traducida similar a IsEmpty.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionIsNull">
+<summary>
+  Busca una cadena traducida similar a IsNull.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionLessThan">
+<summary>
+  Busca una cadena traducida similar a LessThan.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionLessThanOrEqualTo">
+<summary>
+  Busca una cadena traducida similar a LessThanOrEqualTo.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionNotBetween">
+<summary>
+  Busca una cadena traducida similar a NotBetween.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionNotEqualTo">
+<summary>
+  Busca una cadena traducida similar a NotEqualTo.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionNotIsEmpty">
+<summary>
+  Busca una cadena traducida similar a NotIsEmpty.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionNotIsNull">
+<summary>
+  Busca una cadena traducida similar a NotIsNull.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.FilterFunctionStartsWith">
+<summary>
+  Busca una cadena traducida similar a StartsWith.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.GroupOperationAnd">
+<summary>
+  Busca una cadena traducida similar a And.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.GroupOperationNotAnd">
+<summary>
+  Busca una cadena traducida similar a Not And.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.GroupOperationNotOr">
+<summary>
+  Busca una cadena traducida similar a Not Or.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.GroupOperationOr">
+<summary>
+  Busca una cadena traducida similar a Or.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderBetweenText">
+<summary>
+  Busca una cadena traducida similar a Between.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderContainsText">
+<summary>
+  Busca una cadena traducida similar a Contains.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderDoesNotContainText">
+<summary>
+  Busca una cadena traducida similar a Does Not Contain.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderEndsWithText">
+<summary>
+  Busca una cadena traducida similar a Ends With.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderEqualToText">
+<summary>
+  Busca una cadena traducida similar a =.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderGreaterThanOrEqualToText">
+<summary>
+  Busca una cadena traducida similar a &gt;=.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderGreaterThanText">
+<summary>
+  Busca una cadena traducida similar a &gt;.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderIsEmptyText">
+<summary>
+  Busca una cadena traducida similar a Is Empty.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderIsNullText">
+<summary>
+  Busca una cadena traducida similar a Is Null.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderLessThanOrEqualToText">
+<summary>
+  Busca una cadena traducida similar a &lt;=.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderLessThanText">
+<summary>
+  Busca una cadena traducida similar a &lt;.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderNotBetweenText">
+<summary>
+  Busca una cadena traducida similar a NotBetween.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderNotEqualToText">
+<summary>
+  Busca una cadena traducida similar a &lt;&gt;.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderNotIsEmptyText">
+<summary>
+  Busca una cadena traducida similar a Is Not Empty.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderNotIsNullText">
+<summary>
+  Busca una cadena traducida similar a Is Not Null.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.PreviewProviderStartsWithText">
+<summary>
+  Busca una cadena traducida similar a Starts With.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.RemoveToolTip">
+<summary>
+  Busca una cadena traducida similar a Remove Item.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadFilter.Main.ReservedResource">
+<summary>
+  Busca una cadena traducida similar a Please do not remove this key..
+</summary>
+</member>
+<member name="T:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.Culture">
+<summary>
+  Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AddNewRecordImageUrl">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AddNewRecordText">
+<summary>
+  Busca una cadena traducida similar a Add new record.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AggregateFunctionAvg">
+<summary>
+  Busca una cadena traducida similar a Avg.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AggregateFunctionCount">
+<summary>
+  Busca una cadena traducida similar a Count.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AggregateFunctionCountDistinct">
+<summary>
+  Busca una cadena traducida similar a CountDistinct.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AggregateFunctionCustom">
+<summary>
+  Busca una cadena traducida similar a Custom.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AggregateFunctionFirst">
+<summary>
+  Busca una cadena traducida similar a First.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AggregateFunctionLast">
+<summary>
+  Busca una cadena traducida similar a Last.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AggregateFunctionMax">
+<summary>
+  Busca una cadena traducida similar a Max.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AggregateFunctionMin">
+<summary>
+  Busca una cadena traducida similar a Min.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.AggregateFunctionSum">
+<summary>
+  Busca una cadena traducida similar a Sum.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.BetweenText">
+<summary>
+  Busca una cadena traducida similar a Between.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.CancelChangesText">
+<summary>
+  Busca una cadena traducida similar a Cancel changes.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.CancelText">
+<summary>
+  Busca una cadena traducida similar a Cancel.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.Caption">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ChangePageSizeButtonToolTip">
+<summary>
+  Busca una cadena traducida similar a Change Page Size.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ChangePageSizeComboBoxTableSummary">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ChangePageSizeComboBoxToolTip">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ChangePageSizeLabelText">
+<summary>
+  Busca una cadena traducida similar a Page size:.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ChangePageSizeLinkButtonText">
+<summary>
+  Busca una cadena traducida similar a Change.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ChangePageSizeTextBoxToolTip">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.CloseText">
+<summary>
+  Busca una cadena traducida similar a Close.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.CollapseTooltip">
+<summary>
+  Busca una cadena traducida similar a Collapse group.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ColumnResizeTooltipFormatString">
+<summary>
+  Busca una cadena traducida similar a Width: &lt;strong&gt;{0}&lt;/strong&gt; &lt;em&gt;pixels&lt;/em&gt;.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ContainsText">
+<summary>
+  Busca una cadena traducida similar a Contains.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.CustomText">
+<summary>
+  Busca una cadena traducida similar a Custom.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.DeleteText">
+<summary>
+  Busca una cadena traducida similar a Delete.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.DoesNotContainText">
+<summary>
+  Busca una cadena traducida similar a DoesNotContain.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.DragToGroupOrReorder">
+<summary>
+  Busca una cadena traducida similar a Drag to group or reorder.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.DragToResize">
+<summary>
+  Busca una cadena traducida similar a Drag to resize.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.DropHereToReorder">
+<summary>
+  Busca una cadena traducida similar a Drop here to reorder.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.EditText">
+<summary>
+  Busca una cadena traducida similar a Edit.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.EndsWithText">
+<summary>
+  Busca una cadena traducida similar a EndsWith.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.EqualToText">
+<summary>
+  Busca una cadena traducida similar a EqualTo.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ExpandTooltip">
+<summary>
+  Busca una cadena traducida similar a Expand group.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ExportToCsvImageUrl">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ExportToCsvText">
+<summary>
+  Busca una cadena traducida similar a Export to CSV.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ExportToExcelImageUrl">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ExportToExcelText">
+<summary>
+  Busca una cadena traducida similar a Export to Excel.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ExportToPdfImageUrl">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ExportToPdfText">
+<summary>
+  Busca una cadena traducida similar a Export to PDF.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ExportToWordImageUrl">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ExportToWordText">
+<summary>
+  Busca una cadena traducida similar a Export to Word.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.FilterExpression">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.FilterImageToolTip">
+<summary>
+  Busca una cadena traducida similar a Filter.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.FirstPageText">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.FirstPageToolTip">
+<summary>
+  Busca una cadena traducida similar a First Page.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GoToPageLabelText">
+<summary>
+  Busca una cadena traducida similar a Page:.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GoToPageLinkButtonText">
+<summary>
+  Busca una cadena traducida similar a Go.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GoToPageTextBoxToolTip">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GreaterThanOrEqualToText">
+<summary>
+  Busca una cadena traducida similar a GreaterThanOrEqualTo.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GreaterThanText">
+<summary>
+  Busca una cadena traducida similar a GreaterThan.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GroupByFieldsSeparator">
+<summary>
+  Busca una cadena traducida similar a ; .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GroupContinuedFormatString">
+<summary>
+  Busca una cadena traducida similar a ... group continued from the previous page. .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GroupContinuesFormatString">
+<summary>
+  Busca una cadena traducida similar a  Group continues on the next page..
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GroupPanelText">
+<summary>
+  Busca una cadena traducida similar a Drag a column header and drop it here to group by that column.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GroupSplitDisplayFormat">
+<summary>
+  Busca una cadena traducida similar a Showing {0} of {1} items..
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.GroupSplitFormat">
+<summary>
+  Busca una cadena traducida similar a  ({0}).
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuAggregates">
+<summary>
+  Busca una cadena traducida similar a Aggregates.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuAndLabel">
+<summary>
+  Busca una cadena traducida similar a And.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuAvgAggregateText">
+<summary>
+  Busca una cadena traducida similar a Avg.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuBestFitText">
+<summary>
+  Busca una cadena traducida similar a Best Fit.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuClearButton">
+<summary>
+  Busca una cadena traducida similar a Clear Filter.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuColumns">
+<summary>
+  Busca una cadena traducida similar a Columns.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuCountAggregateText">
+<summary>
+  Busca una cadena traducida similar a Count.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuCountDistinctAggregateText">
+<summary>
+  Busca una cadena traducida similar a CountDistinct.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuCustomAggregateText">
+<summary>
+  Busca una cadena traducida similar a Custom.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuFilterButton">
+<summary>
+  Busca una cadena traducida similar a Filter.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuFilterItemText">
+<summary>
+  Busca una cadena traducida similar a Filter.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuFirstAggregateText">
+<summary>
+  Busca una cadena traducida similar a First.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuFreeze">
+<summary>
+  Busca una cadena traducida similar a Freeze.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuGroupBy">
+<summary>
+  Busca una cadena traducida similar a Group By.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuLastAggregateText">
+<summary>
+  Busca una cadena traducida similar a Last.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuMaxAggregateText">
+<summary>
+  Busca una cadena traducida similar a Max.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuMinAggregateText">
+<summary>
+  Busca una cadena traducida similar a Min.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuNoneAggregateText">
+<summary>
+  Busca una cadena traducida similar a None.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuRowsLabel">
+<summary>
+  Busca una cadena traducida similar a Show rows with value that.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuSortAsc">
+<summary>
+  Busca una cadena traducida similar a Sort Ascending.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuSortClear">
+<summary>
+  Busca una cadena traducida similar a Clear Sorting.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuSortDesc">
+<summary>
+  Busca una cadena traducida similar a Sort Descending.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuSumAggregateText">
+<summary>
+  Busca una cadena traducida similar a Sum.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuUnfreeze">
+<summary>
+  Busca una cadena traducida similar a Unfreeze.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HeaderContextMenuUnGroupBy">
+<summary>
+  Busca una cadena traducida similar a Ungroup.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HierarchyCollapseTooltip">
+<summary>
+  Busca una cadena traducida similar a Collapse.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HierarchyExpandTooltip">
+<summary>
+  Busca una cadena traducida similar a Expand.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HierarchySelfCollapseTooltip">
+<summary>
+  Busca una cadena traducida similar a Self reference collapse.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.HierarchySelfExpandTooltip">
+<summary>
+  Busca una cadena traducida similar a Self reference expand.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.InsertText">
+<summary>
+  Busca una cadena traducida similar a Insert.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.IsEmptyText">
+<summary>
+  Busca una cadena traducida similar a IsEmpty.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.IsNullText">
+<summary>
+  Busca una cadena traducida similar a IsNull.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.LastPageText">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.LastPageToolTip">
+<summary>
+  Busca una cadena traducida similar a Last Page.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.LessThanOrEqualToText">
+<summary>
+  Busca una cadena traducida similar a LessThanOrEqualTo.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.LessThanText">
+<summary>
+  Busca una cadena traducida similar a LessThan.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.LoadingText">
+<summary>
+  Busca una cadena traducida similar a Loading....
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileColumnsViewDescription">
+<summary>
+  Busca una cadena traducida similar a Show/Hide Columns and Drag the Icon to Reorder.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileColumnsViewTitle">
+<summary>
+  Busca una cadena traducida similar a Columns Display.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileEditViewTitle">
+<summary>
+  Busca una cadena traducida similar a Edit.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileFilterViewOptionsText">
+<summary>
+  Busca una cadena traducida similar a Options.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileFilterViewTitleFormat">
+<summary>
+  Busca una cadena traducida similar a Filter by {0}.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileFilterViewValueText">
+<summary>
+  Busca una cadena traducida similar a Value.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileInsertViewTitle">
+<summary>
+  Busca una cadena traducida similar a Insert.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileViewBackButtonText">
+<summary>
+  Busca una cadena traducida similar a Back.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileViewCancelButtonText">
+<summary>
+  Busca una cadena traducida similar a Cancel.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileViewDoneButtonText">
+<summary>
+  Busca una cadena traducida similar a Done.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.MobileViewGroupsText">
+<summary>
+  Busca una cadena traducida similar a View Groups.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NextFrozenColumnText">
+<summary>
+  Busca una cadena traducida similar a Next.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NextPagesToolTip">
+<summary>
+  Busca una cadena traducida similar a Next Pages.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NextPageText">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NextPageToolTip">
+<summary>
+  Busca una cadena traducida similar a Next Page.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NoDetailRecordsText">
+<summary>
+  Busca una cadena traducida similar a No child records to display..
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NoFilterText">
+<summary>
+  Busca una cadena traducida similar a NoFilter.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NoMasterRecordsText">
+<summary>
+  Busca una cadena traducida similar a No records to display..
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NotBetweenText">
+<summary>
+  Busca una cadena traducida similar a NotBetween.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NotEqualToText">
+<summary>
+  Busca una cadena traducida similar a NotEqualTo.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NotIsEmptyText">
+<summary>
+  Busca una cadena traducida similar a NotIsEmpty.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.NotIsNullText">
+<summary>
+  Busca una cadena traducida similar a NotIsNull.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.PageOfLabelText">
+<summary>
+  Busca una cadena traducida similar a of {0}.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.PagerTextFormat">
+<summary>
+  Busca una cadena traducida similar a Change page: {4} &amp;nbsp;Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;, items &lt;strong&gt;{2}&lt;/strong&gt; to &lt;strong&gt;{3}&lt;/strong&gt; of &lt;strong&gt;{5}&lt;/strong&gt;..
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.PagerTooltipFormatString">
+<summary>
+  Busca una cadena traducida similar a Page &lt;strong&gt;{0}&lt;/strong&gt; of &lt;strong&gt;{1}&lt;/strong&gt;.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.PageSizeLabelText">
+<summary>
+  Busca una cadena traducida similar a Page size:.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.PrevFrozenColumnText">
+<summary>
+  Busca una cadena traducida similar a Prev.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.PrevPagesToolTip">
+<summary>
+  Busca una cadena traducida similar a Previous Pages.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.PrevPageText">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.PrevPageToolTip">
+<summary>
+  Busca una cadena traducida similar a Previous Page.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.RangeFilteringFromText">
+<summary>
+  Busca una cadena traducida similar a From: .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.RangeFilteringToText">
+<summary>
+  Busca una cadena traducida similar a To: .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.Refresh">
+<summary>
+  Busca una cadena traducida similar a Refresh.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.RefreshImageUrl">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.ReservedResource">
+<summary>
+  Busca una cadena traducida similar a Please do not remove this key..
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.SaveChangesText">
+<summary>
+  Busca una cadena traducida similar a Save changes.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.SliderDecreaseText">
+<summary>
+  Busca una cadena traducida similar a Decrease.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.SliderDragText">
+<summary>
+  Busca una cadena traducida similar a Drag.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.SliderIncreaseText">
+<summary>
+  Busca una cadena traducida similar a Increase.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.SortedAscToolTip">
+<summary>
+  Busca una cadena traducida similar a Sorted asc.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.SortedDescToolTip">
+<summary>
+  Busca una cadena traducida similar a Sorted desc.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.SortToolTip">
+<summary>
+  Busca una cadena traducida similar a Click here to sort.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.StartsWithText">
+<summary>
+  Busca una cadena traducida similar a StartsWith.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.StatusReadyText">
+<summary>
+  Busca una cadena traducida similar a Ready.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.Summary">
+<summary>
+  Busca una cadena traducida similar a .
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.UnGroupButtonTooltip">
+<summary>
+  Busca una cadena traducida similar a Click here to ungroup.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.UnGroupTooltip">
+<summary>
+  Busca una cadena traducida similar a Drag out of the bar to ungroup.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadGrid.Main.UpdateText">
+<summary>
+  Busca una cadena traducida similar a Update.
+</summary>
+</member>
+<member name="T:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.Culture">
+<summary>
+  Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.MonthYearNavigationCancelButtonCaption">
+<summary>
+  Busca una cadena traducida similar a Cancel.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.MonthYearNavigationNextText">
+<summary>
+  Busca una cadena traducida similar a &amp;gt;.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.MonthYearNavigationNextToolTip">
+<summary>
+  Busca una cadena traducida similar a &gt;.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.MonthYearNavigationOkButtonCaption">
+<summary>
+  Busca una cadena traducida similar a OK.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.MonthYearNavigationPrevText">
+<summary>
+  Busca una cadena traducida similar a &amp;lt;.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.MonthYearNavigationPrevToolTip">
+<summary>
+  Busca una cadena traducida similar a &lt;.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.MonthYearNavigationTodayButtonCaption">
+<summary>
+  Busca una cadena traducida similar a Today.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.MonthYearViewCaptionText">
+<summary>
+  Busca una cadena traducida similar a Month year picker.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.MonthYearViewSummary">
+<summary>
+  Busca una cadena traducida similar a Table holding time picker for selecting time of day..
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.PopupButtonToolTip">
+<summary>
+  Busca una cadena traducida similar a Open the monthyear view popup..
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadMonthYearPicker.Main.ReservedResource">
+<summary>
+  Busca una cadena traducida similar a Please do not remove this key..
+</summary>
+</member>
+<member name="T:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.Culture">
+<summary>
+  Invalida la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.Cancel">
+<summary>
+  Busca una cadena traducida similar a Cancelar.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.Close">
+<summary>
+  Busca una cadena traducida similar a Cerrar.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.Maximize">
+<summary>
+  Busca una cadena traducida similar a Maximizar.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.Minimize">
+<summary>
+  Busca una cadena traducida similar a Minimizar.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.No">
+<summary>
+  Busca una cadena traducida similar a No.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.OK">
+<summary>
+  Busca una cadena traducida similar a OK.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.PinOff">
+<summary>
+  Busca una cadena traducida similar a Quitar Fijado de Ventana.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.PinOn">
+<summary>
+  Busca una cadena traducida similar a Fijar Ventana.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.Reload">
+<summary>
+  Busca una cadena traducida similar a Recargar Ventana.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.Restore">
+<summary>
+  Busca una cadena traducida similar a Restaurar Ventana.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.Resources.RadWindowManager.Main.Yes">
+<summary>
+  Busca una cadena traducida similar a Si.
+</summary>
+</member>
+<member name="P:DemoMenuBaseMultiVentanas.clssArchTemp.DiasPlazoLimpiar">
+ <summary>
+ Establece el plazo en dias, en los que los archivos deberan ser eliminados
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.clssLinkDocSeguro.CrearConfig(System.String,System.String)">
+ <summary>
+ Configuracion especifica para abrir un documento
+ </summary>
+ <param name="sUsr">Id de Usuario actual</param>
+ <param name="sRuta">Ruta del documento que se desea abrir</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.AnceSystems.clssValidaAcceso.ValidaAcceso(System.Object@,System.Object@,System.Web.HttpRequest,System.Web.UI.Page,System.String)">
+ <summary>
+ Valida que el usuario actual tenga los permisos de acceso a un modulo en especifico
+ </summary>
+ <param name="objSesion">Recibe una variable de sesion donde se alamacenera el dato del usuario al que se le permite el acceso</param>
+ <param name="objSessionParams">Recibe una variable de sesion donde se alamacenara los datos de IP y HOSTNAME</param>
+ <param name="objRequest">Se necesita el objeto Request desde donde se invoca el metodo</param>
+ <param name="Pagina">Se necesita el objeto Page de la pagina desde donde se invoca el metodo</param>
+ <param name="sIdSistema">Se puede especificar el Id sistema para determinar el acceso, si no se especifica este valor lo toma del Web.Config (IdSistema)</param>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.AddWindow(System.Object,System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ Metodo para abrir una nueva vantana con el Plug window
+ </summary>
+ <param name="Pagina">obj:Page</param>
+ <param name="sPagina">P�gina que se desea abrir</param>
+ <param name="sTitulo">Titulo de la ventana</param>
+ <param name="Width">Ancho de la ventana</param>
+ <param name="Height">Alto de la ventana</param>
+ <param name="esPrincipal">Si es principal indica que es ventana de index, de lo contrario se entiende que desea abrir una ventana desde otra ventana</param>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.MsgJqueryConfirm(System.Object,System.String,System.String,System.String[])">
+ <summary>
+ Es requerido Contar con un div que contenga una label para el tecto (previamente asignado y los botones con su respectivo handler
+ </summary>
+ <param name="obj">Objeto en el que se inclusta el js</param>
+ <param name="Selector">id o clase del panel confirm (sin #)</param>
+ <param name="Titulo">titulo de la ventana</param>
+ <param name="Botones">botones que contiene el panel confirm</param>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.validarCampos(System.Object[])">
+ <summary>
+ Funcion que valida campos en blanco, deben de contener por lo menos una letra
+ </summary>
+ <param name="obj">Campos de texto que se desean validar </param>
+ <returns>Regresa un arreglo de los objetos que no pasaron la prueba</returns>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.RutaArchCadena(System.String)">
+ <summary>
+ Permite encontrar el nombre de un archivo en un path :. c:\documentos\docto.xls. 
+ </summary>
+ <param name="sArchivoRuta">Ruta donde se encuentra el archivo</param>
+ <returns>Regresa un arreglo de longitud 2 donde contiene el nombre del archivo (0) y su extencion (1)</returns>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.RegistrarError(System.Exception)">
+ <summary>
+ Permite registrar los errores en la base de datos, enviar correos de error, y en archivo axd
+ </summary>
+ <param name="ex">Es la excepcion que se genera por lo regular en un Catch</param>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.AsignaCulturaInfo(System.Object[])">
+ <summary>
+ Asigna la CultureInfo para los objetos con propiedad de Culture
+ Aplica idioma de etiquetas y tags si cuenta si cuenta con App_GlobalResources
+ </summary>
+ <param name="obj">Arrego de objetos para asignar CultureInfo</param>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.ValidaCampoNulo(System.Object,DemoMenuBaseMultiVentanas.General.eTipoValorValidar)">
+ <summary>
+ Valida que el campo ingresado no sea nullo para asegurar que se retorne un campo valido
+ </summary>
+ <param name="Campo"></param>
+ <param name="enuTipo"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.ActualizarRadAjaxPanel(Telerik.Web.UI.RadAjaxPanel,Telerik.Web.UI.RadAjaxPanel)">
+ <summary>
+ Realiza la solicitud de actualizacion de un panel a otro
+ </summary>
+ <param name="rapPanelOrigen"></param>
+ <param name="rapPanelActualizar"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.ActualizarRadAjaxPanel(System.Web.UI.Page,Telerik.Web.UI.RadAjaxPanel)">
+ <summary>
+ Refresca el contenido de un RadAjaxPanel
+ </summary>
+ <param name="Pagina"></param>
+ <param name="rapPanel"></param>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.ConfigurarControlAsyncUpLoad(Telerik.Web.UI.RadAsyncUpload,System.Int32,System.String)">
+ <summary>
+ Configura los controles RadAsyncUpload para definir sus limites permitidos segun la configuracion del WebConfig
+ </summary>
+ <param name="raup">Control RadAsyncUpload a configurar </param>
+ <param name="MaxCantArchPerm">Maximo Cantidad de Archivos que se permiten adjuntar</param>
+ <param name="NomConfigExtenPermitidas">Nombre de configuracion del WebConfig que define las extensiones permitidas</param>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.LinqToDataTable(System.Collections.IEnumerable)">
+20150415
+ <summary>
+ Convierte una lista de LINQ a DataTable
+ </summary>
+ <param name="parIList">Lista de LINQ</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:DemoMenuBaseMultiVentanas.General.HideLoadingPanel(System.Object,System.Object,System.String,System.String)">
+ <summary>
+ Oculta el control loading panel que se encuentre reflejado sobre un control dado.
+ </summary>
+ <param name="udpCBJquery">Updatepanel sobre el cual se escribira el codigo de javascript</param>
+ <param name="objPage">El objeto pagina sobre el cual se este trabajando</param>
+ <param name="sIDLoadingPanel">El id del control de Telerik Loading Panel</param>
+ <param name="sIDControlReflejar">El id del control sobre el cual se refleja el Loading Panel</param>
+ <remarks></remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._SkinManager">
+<summary>
+Control SkinManager.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._RadFormDecorator1">
+<summary>
+Control RadFormDecorator1.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._ralpLoad">
+<summary>
+Control ralpLoad.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._RadPersistenceManager1">
+<summary>
+Control RadPersistenceManager1.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._RadAjaxManager1">
+<summary>
+Control RadAjaxManager1.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._rtbTitulo">
+<summary>
+Control rtbTitulo.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._rbbRibbon">
+<summary>
+Control rbbRibbon.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._RibbonBarTab1">
+<summary>
+Control RibbonBarTab1.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._RibbonBarGroup1">
+<summary>
+Control RibbonBarGroup1.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._RibbonBarGroup21">
+<summary>
+Control RibbonBarGroup21.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._RibbonBarTab2">
+<summary>
+Control RibbonBarTab2.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._RibbonBarGroup11">
+<summary>
+Control RibbonBarGroup11.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._hidUsuario">
+<summary>
+Control hidUsuario.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._hidInicializarNotificaciones">
+<summary>
+Control hidInicializarNotificaciones.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._pnlUsuario">
+<summary>
+Control pnlUsuario.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._lblUsuario">
+<summary>
+Control lblUsuario.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._rdWndMngPrincipal">
+<summary>
+Control rdWndMngPrincipal.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._CodeBlock">
+<summary>
+Control CodeBlock.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Index._udpCBJquery">
+<summary>
+Control udpCBJquery.
+</summary>
+<remarks>
+Campo generado autom�ticamente.
+Para modificarlo, mueva la declaraci�n del campo del archivo del dise�ador al archivo de c�digo subyacente.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.mpFormularios._Head2">
+<summary>
+Head2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.mpFormularios._cphCss">
+<summary>
+cphCss control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.mpFormularios._cphJs">
+<summary>
+cphJs control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.mpFormularios._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.mpFormularios._RadScriptManager1">
+<summary>
+RadScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.mpFormularios._SkinManager">
+<summary>
+SkinManager control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.mpFormularios._RadFormDecorator1">
+<summary>
+RadFormDecorator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.mpFormularios._cphAreaTrabajo">
+<summary>
+cphAreaTrabajo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._ralLoad">
+<summary>
+ralLoad control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._ramManajer">
+<summary>
+ramManajer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._rapContenedor">
+<summary>
+rapContenedor control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._btnCuentas">
+<summary>
+btnCuentas control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._Label1">
+<summary>
+Label1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._txtNombre">
+<summary>
+txtNombre control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._Label2">
+<summary>
+Label2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._txtEmpresa">
+<summary>
+txtEmpresa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._Label3">
+<summary>
+Label3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._txtCorreo">
+<summary>
+txtCorreo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._Label4">
+<summary>
+Label4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._TextBox1">
+<summary>
+TextBox1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._Label5">
+<summary>
+Label5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._TextBox2">
+<summary>
+TextBox2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._Label6">
+<summary>
+Label6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._TextBox3">
+<summary>
+TextBox3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._Label7">
+<summary>
+Label7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._TextBox4">
+<summary>
+TextBox4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._Label8">
+<summary>
+Label8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._TextBox5">
+<summary>
+TextBox5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._Label9">
+<summary>
+Label9 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._TextBox6">
+<summary>
+TextBox6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._block">
+<summary>
+block control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._rfvNombre">
+<summary>
+rfvNombre control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._rfvEmpresa">
+<summary>
+rfvEmpresa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._rfvCorreo">
+<summary>
+rfvCorreo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._notCampos">
+<summary>
+notCampos control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._vsCampos">
+<summary>
+vsCampos control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._UpdatePanel2">
+<summary>
+UpdatePanel2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._lblMensaje">
+<summary>
+lblMensaje control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._UpdatePanel3">
+<summary>
+UpdatePanel3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._cmdAceptar">
+<summary>
+cmdAceptar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DemoMenuBaseMultiVentanas.Test._cmdCancelar">
+<summary>
+cmdCancelar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

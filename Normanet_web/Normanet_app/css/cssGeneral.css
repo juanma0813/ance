@@ -1,0 +1,57 @@
+html,form{
+    height:100%;
+}
+
+body {
+    margin:0px;
+    background-image:url(../Imagenes/Formularios/Fondo.png);
+    height:100%;
+}
+
+.canvas{
+     width: 100%;
+}
+
+.rrbResizeHandle {
+    display: none !important;
+}
+
+#pnlMDI {
+    width:100%;
+    min-height:100%;
+    height:100%;
+}
+
+
+#AreaRestringida {
+    height:100%;
+    width:100%;
+    border:0;
+}
+
+.wnContenedor {
+    height:98%;
+}
+
+#LogoAnce {
+    width:150px;
+    height:150px;
+    background-image:url(../Imagenes/Formularios/LogoAnce.png);
+    background-repeat:no-repeat;
+    position:relative;
+    margin:auto;
+    top:25%;
+}
+
+.hide-close .ui-dialog-titlebar-close { display: none }
+
+.SinBorde{font-family:Tahoma,Arial;border-collapse:collapse;border:0px;}
+.SinBorde Table th {font-size:10px;border:0px solid #FFFFFF;padding:3px 7px 2px 7px;}
+.SinBorde td {font-size:10px;border:0px;padding:3px 7px 2px 7px;}           
+.SinBorde tr {height:auto;}	
+.SinBorde th {font-size:11px;text-align:center;padding-top:2px;padding-bottom:2px;background:url(../Imagenes/Formularios/page-bg.png) repeat-x;color:#000066;}
+.ConBorde{font-family:Tahoma,Arial;border-collapse:collapse;border:1px solid #77ABF2;}
+.ConBorde td {font-size:10px;border:1px solid #77ABF2;padding:3px 7px 2px 7px;}
+.SinBordeSec{font-family:Tahoma,Arial;border-collapse:collapse;border:0px solid #FFFFFF; background-color: transparent;}
+.SinBordeSec Table Table th {font-size:10px;border:0px solid #FFFFFF;padding:3px 7px 2px 7px;}
+.SinBordeSec td {font-size:10px;border:0px solid #FFFFFF;padding:3px 7px 2px 7px;}  

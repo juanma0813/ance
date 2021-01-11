@@ -1,0 +1,33 @@
+html{
+    height:100%;
+    font-family:Arial;
+}
+
+body {
+	margin:0px;
+    height:100%;
+}
+
+form {
+    height:100%;
+}
+
+.btnInActivo {
+    filter: alpha(opacity=40); opacity: .4
+}
+
+.btnActivo {
+    filter: alpha(opacity=100); opacity: 1
+}
+
+.SinBorde{font-family:Tahoma,Arial;border-collapse:collapse;border:0px;}
+.SinBorde Table th {font-size:10px;border:0px solid #FFFFFF;padding:3px 7px 2px 7px;}
+.SinBorde td {font-size:10px;border:0px;padding:3px 7px 2px 7px;}           
+.SinBorde tr {height:auto;}	
+.SinBorde th {font-size:11px;text-align:center;padding-top:2px;padding-bottom:2px;background:url(../Imagenes/Formularios/page-bg.png) repeat-x;color:#000066;}
+.ConBorde{font-family:Tahoma,Arial;border-collapse:collapse;border:1px solid #77ABF2;}
+.ConBorde td {font-size:10px;border:1px solid #77ABF2;padding:3px 7px 2px 7px;}
+.SinBordeSec{font-family:Tahoma,Arial;border-collapse:collapse;border:0px solid #FFFFFF; background-color: transparent;}
+.SinBordeSec Table Table th {font-size:10px;border:0px solid #FFFFFF;padding:3px 7px 2px 7px;}
+.SinBordeSec td {font-size:10px;border:0px solid #FFFFFF;padding:3px 7px 2px 7px;}  
+       

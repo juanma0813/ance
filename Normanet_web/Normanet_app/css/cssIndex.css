@@ -1,0 +1,360 @@
+
+/*MOVIMIENTO RINGING*/
+.AnimacionBell {
+    display: inline-block;
+    -moz-animation: ringing 2s 5 ease 1s;
+    -webkit-animation: ringing 2s 5 ease 1s;
+    -o-animation: ringing 2s 5 ease 1s;
+    -ms-animation: ringing 2s 5 ease 1s;
+    animation: ringing 2s 5 ease 1s;
+    -moz-transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    animation-iteration-count: infinite;
+}
+
+.IndicadorPasos
+{
+	background-color:#FAE185 !important;   
+	border-radius: 10px;
+    border:solid 1px #ffac00;
+    height: 18px !important; 
+	}
+
+
+.IconUsuario
+{
+	float:right;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+
+.RadMenu ul.rmActive, .RadMenu ul.rmRootGroup
+{
+	background-color:transparent !important;
+    border:none !important;
+    font-weight:bold;
+     
+}
+
+.MiMenu
+{
+	top:-2px !important;
+	border:none !important;
+}
+
+.MiMenu .Root0 span {
+    font-size: 13px !important;
+    font-weight: bold !important;
+    color: #385eac;
+    text-shadow: 2px 5px 5px #fff;
+    padding: 0 12px 5px 3px !important;
+}
+
+.MiMenu .Root0 span.IndicadorPasos {
+    font-size: 13px !important;
+    font-weight: bold !important;
+    color: #385eac;
+    text-shadow: 2px 5px 5px #fff;
+    padding: 0 12px 5px 12px !important;
+}
+
+
+.ItemMenuCantidad {
+    float:left;
+    text-align:center; 
+    width:30px;
+    font-weight:bold;
+}
+
+
+.rmText
+{
+	text-align:left;    
+}
+
+.RadMenu .rmSlide .rmVertical .rmLeftImage {
+  /*position: relative !Important;*/
+}
+
+
+.tablaForm2Colum
+{
+	border:none;
+	/*margin-top:10px;*/
+	margin:0px auto 0 auto;
+}
+
+	.tablaForm2Colum .Titulo
+	{
+		font-family:Tahoma,Arial;
+		font-size:11px;
+		font-weight:bold;
+		color:#000066;
+		text-align:right;
+		padding-left:2px;padding-top:2px;padding-bottom:2px;background:url(../Imagenes/Formularios/page-bg.png) repeat-x;
+	}
+	
+    .tablaForm2Colum .TituloCentrado
+	{
+		font-family:Tahoma,Arial;
+		font-size:14px;
+		font-weight:bold;
+		color:#000066;
+		text-align:center;
+		padding-left:2px;padding-top:2px;padding-bottom:2px;background:url(../Imagenes/Formularios/page-bg.png) repeat-x;
+	}
+
+.UsrSesion {
+    top: 32px;
+    position: absolute;
+    display: block;
+    right: 0px;
+    font-family: Tahoma,Arial;
+    font-size: 11px;
+    text-align: right;
+    padding: 1px 10px 1px 0px;
+   /* width: 300px;*/
+    height: 20px;
+    filter: alpha(opacity=75);
+    background-image: none;
+    vertical-align: middle;
+    color: #3874AC;
+    z-index: 3800;
+    border-bottom: #99ccff 0px solid;
+    border-left: #99ccff 0px solid;
+    border-top: #99ccff 0px solid;
+    border-right: #99ccff 0px solid;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.stylish {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 66px;
+    border: 4px double #ccc;
+    font-size: 20px;
+    color: #666;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    background: #ddd;
+}
+
+    .stylish:hover {
+        border: 4px double #bbb;
+        color: #aaa;
+        text-decoration: none;
+        background: #e6e6e6;
+    }
+
+@-moz-keyframes ringing {
+    0% {
+        -moz-transform: rotate(-15deg);
+    }
+
+    2% {
+        -moz-transform: rotate(15deg);
+    }
+
+    4% {
+        -moz-transform: rotate(-18deg);
+    }
+
+    6% {
+        -moz-transform: rotate(18deg);
+    }
+
+    8% {
+        -moz-transform: rotate(-22deg);
+    }
+
+    10% {
+        -moz-transform: rotate(22deg);
+    }
+
+    12% {
+        -moz-transform: rotate(-18deg);
+    }
+
+    14% {
+        -moz-transform: rotate(18deg);
+    }
+
+    16% {
+        -moz-transform: rotate(-12deg);
+    }
+
+    18% {
+        -moz-transform: rotate(12deg);
+    }
+
+    20% {
+        -moz-transform: rotate(0deg);
+    }
+}
+
+@-webkit-keyframes ringing {
+    0% {
+        -webkit-transform: rotate(-15deg);
+    }
+
+    2% {
+        -webkit-transform: rotate(15deg);
+    }
+
+    4% {
+        -webkit-transform: rotate(-18deg);
+    }
+
+    6% {
+        -webkit-transform: rotate(18deg);
+    }
+
+    8% {
+        -webkit-transform: rotate(-22deg);
+    }
+
+    10% {
+        -webkit-transform: rotate(22deg);
+    }
+
+    12% {
+        -webkit-transform: rotate(-18deg);
+    }
+
+    14% {
+        -webkit-transform: rotate(18deg);
+    }
+
+    16% {
+        -webkit-transform: rotate(-12deg);
+    }
+
+    18% {
+        -webkit-transform: rotate(12deg);
+    }
+
+    20% {
+        -webkit-transform: rotate(0deg);
+    }
+}
+
+@-ms-keyframes ringing {
+    0% {
+        -ms-transform: rotate(-15deg);
+    }
+
+    2% {
+        -ms-transform: rotate(15deg);
+    }
+
+    4% {
+        -ms-transform: rotate(-18deg);
+    }
+
+    6% {
+        -ms-transform: rotate(18deg);
+    }
+
+    8% {
+        -ms-transform: rotate(-22deg);
+    }
+
+    10% {
+        -ms-transform: rotate(22deg);
+    }
+
+    12% {
+        -ms-transform: rotate(-18deg);
+    }
+
+    14% {
+        -ms-transform: rotate(18deg);
+    }
+
+    16% {
+        -ms-transform: rotate(-12deg);
+    }
+
+    18% {
+        -ms-transform: rotate(12deg);
+    }
+
+    20% {
+        -ms-transform: rotate(0deg);
+    }
+}
+
+@keyframes ringing {
+    0% {
+        transform: rotate(-15deg);
+    }
+
+    2% {
+        transform: rotate(15deg);
+    }
+
+    4% {
+        transform: rotate(-18deg);
+    }
+
+    6% {
+        transform: rotate(18deg);
+    }
+
+    8% {
+        transform: rotate(-22deg);
+    }
+
+    10% {
+        transform: rotate(22deg);
+    }
+
+    12% {
+        transform: rotate(-18deg);
+    }
+
+    14% {
+        transform: rotate(18deg);
+    }
+
+    16% {
+        transform: rotate(-12deg);
+    }
+
+    18% {
+        transform: rotate(12deg);
+    }
+
+    20% {
+        transform: rotate(0deg);
+    }
+}
+
+.count-info .label {
+    line-height:12px;
+    padding:2px 5px;
+    position:absolute;
+    left:15px;
+    top:-7px;
+}
+
+.label-as-badge {
+    border-radius: 1em !important;
+    font-size:11px;
+}
+
+.rrbImagePlaceholder {
+    padding-right:3px !important;
+}
+
+
+
+/*FIN DE MOVIMIENTO RINGING*/

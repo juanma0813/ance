@@ -155,9 +155,9 @@
              </script>
         </telerik:RadCodeBlock>
         <div id="Validadores">
-        <%--      <asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="txtNombre" ErrorMessage="Nombre" Display="None" ValidationGroup="PersonalInfoGroup" />
-          <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="txtEmpresa" ErrorMessage="Empresa" Display="None" ValidationGroup="PersonalInfoGroup" />
-            <asp:RequiredFieldValidator runat="server" ID="rfvCorreo" ControlToValidate="txtCorreo" ErrorMessage="Correo" Display="None" ValidationGroup="PersonalInfoGroup" />--%>
+        <asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="txtNombre" ErrorMessage="Comité" Display="None" ValidationGroup="PersonalInfoGroup" />
+          <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="TextBox1" ErrorMessage="Comité Técnico" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="rfvCorreo" ControlToValidate="TextBox2" ErrorMessage="Subcomité" Display="None" ValidationGroup="PersonalInfoGroup" />
         </div>
         <telerik:RadNotification ID="notCampos" runat="server" Animation="Fade" ContentIcon="warning" EnableRoundedCorners="True" EnableShadow="True" Position="Center" SkinID="SkinManager" Title="Problemas con campos" TitleIcon="warning" Width="261px" AutoCloseDelay="6000">
             <ContentTemplate>

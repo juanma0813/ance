@@ -8,9 +8,9 @@
 
 <link href="css/cssGeneralFrm.css" rel="stylesheet" />
 <asp:ContentPlaceHolder ID="cphCss" runat="server"></asp:ContentPlaceHolder>
-<script src="js/jQueryFrameWork.js"></script>
-<script src="js/jsGeneralFrm.js"></script>
-<script src="js/jsMenuBaseMultiVentanas.js"></script>
+<script src="../js/jQueryFrameWork.js"></script>
+<script src="../js/jsGeneralFrm.js"></script>
+<script src="../js/jsMenuBaseMultiVentanas.js"></script>
 <asp:ContentPlaceHolder ID="cphJs" runat="server"></asp:ContentPlaceHolder>
 
 </head>

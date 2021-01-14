@@ -5,7 +5,8 @@ Public Class Test
         If IsPostBack Then
             CuentaRegresivaSesion(UpdatePanel2, Session)
         End If
-        BotonesInicio()
+        ''BotonesInicio()
+        ''BotonesNuevo()
     End Sub
 
     Protected Sub btnCuentas_ButtonClick(sender As Object, e As Telerik.Web.UI.RadToolBarEventArgs) Handles btnCuentas.ButtonClick
@@ -15,7 +16,7 @@ Public Class Test
     Private Sub Menu(btnValue As Integer)
         Select Case btnValue
             Case eBtnFormularios.Nuevo
-                BotonesNuevo()
+                ''BotonesNuevo()
             Case eBtnFormularios.Editar
                 AddWindow(Me.Page, "Test.aspx", "..:: Test ::.. - DemoMenuBaseMultiVentanas", 700, 550, False)
                 ScriptManager.RegisterStartupScript(Me.Page, Page.GetType, Guid.NewGuid.ToString, "", True)

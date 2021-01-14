@@ -4,6 +4,10 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Normanet_app", "Normanet_app\Normanet_app.vbproj", "{F86B0DFB-6E99-4E94-85AF-9C2781E67DCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Normanet_Comunicaciones", "Normanet_Comunicaciones\Normanet_Comunicaciones.csproj", "{A33568AD-9CEC-47D4-919D-9A97CAD54A42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Normanet_Entidades", "Normanet_Entidades\Normanet_Entidades.csproj", "{95E1871C-6C6F-4529-A02E-8ECECAFB5F41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +18,14 @@ Global
 		{F86B0DFB-6E99-4E94-85AF-9C2781E67DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F86B0DFB-6E99-4E94-85AF-9C2781E67DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F86B0DFB-6E99-4E94-85AF-9C2781E67DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33568AD-9CEC-47D4-919D-9A97CAD54A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33568AD-9CEC-47D4-919D-9A97CAD54A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33568AD-9CEC-47D4-919D-9A97CAD54A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33568AD-9CEC-47D4-919D-9A97CAD54A42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E1871C-6C6F-4529-A02E-8ECECAFB5F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E1871C-6C6F-4529-A02E-8ECECAFB5F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E1871C-6C6F-4529-A02E-8ECECAFB5F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E1871C-6C6F-4529-A02E-8ECECAFB5F41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

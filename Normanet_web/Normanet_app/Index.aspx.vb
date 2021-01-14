@@ -48,7 +48,7 @@ Public Class Index
     End Sub
 
     Public Sub OpenWindow(sPagina As String, sTitulo As String, Width As Integer, Height As Integer)
-        ScriptManager.RegisterClientScriptBlock(udpCBJquery, Me.GetType, Guid.NewGuid.ToString, "OpenWindow('"& sPagina &"','"& sTitulo &"',"& Width &","& Height &");", True)
+        ScriptManager.RegisterClientScriptBlock(udpCBJquery, Me.GetType, Guid.NewGuid.ToString, "OpenWindow('" & sPagina & "','" & sTitulo & "'," & Width & "," & Height & ");", True)
     End Sub
 
 End Class

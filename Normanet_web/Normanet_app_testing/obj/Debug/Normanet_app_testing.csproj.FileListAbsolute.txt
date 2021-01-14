@@ -1,0 +1,16 @@
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\Normanet_app_testing.exe.config
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\Normanet_app_testing.exe
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\Normanet_app_testing.pdb
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\Normanet_Comunicaciones.dll
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\Normanet_Entidades.dll
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\RestSharp.dll
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\Newtonsoft.Json.dll
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\Normanet_Comunicaciones.pdb
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\Normanet_Entidades.pdb
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\RestSharp.xml
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\bin\Debug\Newtonsoft.Json.xml
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\obj\Debug\Normanet_app_testing.csprojAssemblyReference.cache
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\obj\Debug\Normanet_app_testing.csproj.CoreCompileInputs.cache
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\obj\Debug\Normanet_app_testing.csproj.CopyComplete
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\obj\Debug\Normanet_app_testing.exe
+C:\ANCE\ance\Normanet_web\Normanet_app_testing\obj\Debug\Normanet_app_testing.pdb

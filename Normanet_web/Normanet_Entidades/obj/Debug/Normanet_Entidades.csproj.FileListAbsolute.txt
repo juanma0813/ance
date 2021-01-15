@@ -1,0 +1,6 @@
+C:\ANCE\ance\Normanet_web\Normanet_Entidades\bin\Debug\Normanet_Entidades.dll
+C:\ANCE\ance\Normanet_web\Normanet_Entidades\bin\Debug\Normanet_Entidades.pdb
+C:\ANCE\ance\Normanet_web\Normanet_Entidades\obj\Debug\Normanet_Entidades.csprojAssemblyReference.cache
+C:\ANCE\ance\Normanet_web\Normanet_Entidades\obj\Debug\Normanet_Entidades.csproj.CoreCompileInputs.cache
+C:\ANCE\ance\Normanet_web\Normanet_Entidades\obj\Debug\Normanet_Entidades.dll
+C:\ANCE\ance\Normanet_web\Normanet_Entidades\obj\Debug\Normanet_Entidades.pdb

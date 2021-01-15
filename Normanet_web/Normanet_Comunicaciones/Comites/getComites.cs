@@ -45,7 +45,7 @@ namespace Normanet_Comunicaciones.Comites
             List<Normanet_Entidades.Comites.getComitesDescripcion> Response = JsonConvert.DeserializeObject<List<Normanet_Entidades.Comites.getComitesDescripcion>>(response.Content);
             return Response;
         }
-        public String addComite_post(addComite_post_put_Parameter _Parameter)
+        public static String addComite_post(addComite_post_put_Parameter _Parameter)
         {
             string value = System.Configuration.ConfigurationManager.AppSettings["EndpointBase"];
 
@@ -59,7 +59,7 @@ namespace Normanet_Comunicaciones.Comites
             IRestResponse response = client.Execute(request);
             return response.StatusCode.ToString();
         }
-        public String addComite_put(addComite_post_put_Parameter _Parameter)
+        public static String addComite_put(addComite_post_put_Parameter _Parameter)
         {
             string value = System.Configuration.ConfigurationManager.AppSettings["EndpointBase"];
 
@@ -89,22 +89,7 @@ namespace Normanet_Comunicaciones.Comites
 
         }
 
-
-        private static void CallGetMethod(GetDeleteComitesDescripcion_Parameter _Parameter)
-        {
-            string value = System.Configuration.ConfigurationManager.AppSettings["EndpointBase"] + "comitetecnico/descripcion";
-            HttpClient client = new HttpClient();
-            var json = JsonConvert.SerializeObject(_Parameter);
-            var request = new HttpRequestMessage
-            {
-                Method = HttpMethod.Get,
-                RequestUri = new Uri(value),
-                Content = new StringContent(json, Encoding.UTF8, "application/json")
-            };
-            var response = client.SendAsync(request).ConfigureAwait(false);
-            var responseInfo = response.GetAwaiter().GetResult();
-        }
-
+ 
 
     }
 }

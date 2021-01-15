@@ -31,4 +31,23 @@
         inactivar(btnCuentas.Items(eBtnFormularios.Nuevo), btnCuentas.Items(eBtnFormularios.Editar))
     End Sub
 
+    Private Sub AddComite()
+        Dim comunicaciones As New Normanet_Comunicaciones.Comites.Comites
+        Dim addComite_post_put_Parameter As New Normanet_Entidades.Comites.addComite_post_put_Parameter
+
+        addComite_post_put_Parameter.Bandera = RadCheckBox1.Value
+        addComite_post_put_Parameter.Comite = txtNombre.Text
+        addComite_post_put_Parameter.Descripcion = TextBox4.Text
+        addComite_post_put_Parameter.Responsable = DropDownList1.Text
+        addComite_post_put_Parameter.Inactivo = ""
+        addComite_post_put_Parameter.Objetivo = ""
+        addComite_post_put_Parameter.CT = TextBox1.Text
+        addComite_post_put_Parameter.SC = TextBox2.Text
+        addComite_post_put_Parameter.GT = TextBox3.Text
+        addComite_post_put_Parameter.Comite = TextBox1.Text
+
+        Dim addComite = comunicaciones.addComite_post(addComite_post_put_Parameter)
+        Dim resultado = addComite
+
+    End Sub
 End Class

@@ -584,6 +584,16 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Normanet_Comunicaciones\Normanet_Comunicaciones.csproj">
+      <Project>{a33568ad-9cec-47d4-919d-9a97cad54a42}</Project>
+      <Name>Normanet_Comunicaciones</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Normanet_Entidades\Normanet_Entidades.csproj">
+      <Project>{95e1871c-6c6f-4529-a02e-8ececafb5f41}</Project>
+      <Name>Normanet_Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

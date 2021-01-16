@@ -1,8 +1,11 @@
-﻿Public Class Comite
+﻿Imports System.Drawing
+Imports Telerik.Web.UI
+
+Public Class Comite
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
+        AddNodes()
     End Sub
 
     Protected Sub btnCuentas_ButtonClick(sender As Object, e As Telerik.Web.UI.RadToolBarEventArgs) Handles btnCuentas.ButtonClick
@@ -29,6 +32,26 @@
     Private Sub BotonesNuevo()
         Activar(btnCuentas.Items(eBtnFormularios.Guardar), btnCuentas.Items(eBtnFormularios.Deshacer))
         inactivar(btnCuentas.Items(eBtnFormularios.Nuevo), btnCuentas.Items(eBtnFormularios.Editar))
+    End Sub
+
+
+
+    Private Sub AddNodes()
+
+
+        Dim lst As New List(Of Entidades.getComites)
+        lst = Proceso.getComites_Get("CT 14", "SC 14 A")
+
+
+        For Each item As Entidades.getComites In lst
+            Dim Node1 As New RadTreeNode(item.Descripcion)
+            RadTreeView1.Nodes.Add(Node1)
+        Next
+
+
+
+
+
     End Sub
 
 End Class

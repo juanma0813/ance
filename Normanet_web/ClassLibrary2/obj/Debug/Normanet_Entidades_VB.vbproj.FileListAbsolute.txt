@@ -1,0 +1,9 @@
+C:\ANCE\ance\Normanet_web\ClassLibrary2\bin\Debug\EntidadesNormanet.dll
+C:\ANCE\ance\Normanet_web\ClassLibrary2\bin\Debug\EntidadesNormanet.pdb
+C:\ANCE\ance\Normanet_web\ClassLibrary2\bin\Debug\EntidadesNormanet.xml
+C:\ANCE\ance\Normanet_web\ClassLibrary2\obj\Debug\EntidadesNormanet.Resources.resources
+C:\ANCE\ance\Normanet_web\ClassLibrary2\obj\Debug\Normanet_Entidades_VB.vbproj.GenerateResource.cache
+C:\ANCE\ance\Normanet_web\ClassLibrary2\obj\Debug\Normanet_Entidades_VB.vbproj.CoreCompileInputs.cache
+C:\ANCE\ance\Normanet_web\ClassLibrary2\obj\Debug\EntidadesNormanet.dll
+C:\ANCE\ance\Normanet_web\ClassLibrary2\obj\Debug\EntidadesNormanet.xml
+C:\ANCE\ance\Normanet_web\ClassLibrary2\obj\Debug\EntidadesNormanet.pdb

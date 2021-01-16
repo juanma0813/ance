@@ -1,0 +1,14 @@
+C:\ANCE\ance\Normanet_web\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\ANCE\ance\Normanet_web\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\ANCE\ance\Normanet_web\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\ANCE\ance\Normanet_web\ConsoleApp2\bin\Debug\ConsoleApp2.xml
+C:\ANCE\ance\Normanet_web\ConsoleApp2\bin\Debug\Newtonsoft.Json.dll
+C:\ANCE\ance\Normanet_web\ConsoleApp2\bin\Debug\Newtonsoft.Json.xml
+C:\ANCE\ance\Normanet_web\ConsoleApp2\obj\Debug\ConsoleApp2.vbprojAssemblyReference.cache
+C:\ANCE\ance\Normanet_web\ConsoleApp2\obj\Debug\ConsoleApp2.Resources.resources
+C:\ANCE\ance\Normanet_web\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.GenerateResource.cache
+C:\ANCE\ance\Normanet_web\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.CoreCompileInputs.cache
+C:\ANCE\ance\Normanet_web\ConsoleApp2\obj\Debug\ConsoleApp2.vbproj.CopyComplete
+C:\ANCE\ance\Normanet_web\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\ANCE\ance\Normanet_web\ConsoleApp2\obj\Debug\ConsoleApp2.xml
+C:\ANCE\ance\Normanet_web\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

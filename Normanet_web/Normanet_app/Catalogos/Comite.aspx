@@ -30,18 +30,7 @@
                         <br />
                         <asp:TextBox ID="TextBox6" runat="server" Width="98%" placeholder="Buscar..." ></asp:TextBox>
                          <telerik:RadTreeView RenderMode="Classic" ID="RadTreeView1" runat="server"  Width="100%" Height="100%">
-                            <Nodes>
-                                <telerik:RadTreeNode runat="server" Text="Zanzibar" AllowDrag="false">
-                                    <Nodes>
-                                        <telerik:RadTreeNode runat="server" Text="Weekend Package" AllowDrop="false" Value="1999">
-                                        </telerik:RadTreeNode>
-                                        <telerik:RadTreeNode runat="server" Text="1 Week Package" AllowDrop="false" Value="2999">
-                                        </telerik:RadTreeNode>
-                                        <telerik:RadTreeNode runat="server" Text="2 Week Package" AllowDrop="false" Value="3999">
-                                        </telerik:RadTreeNode>
-                                    </Nodes>
-                                </telerik:RadTreeNode>
-                            </Nodes>
+       
                         </telerik:RadTreeView>
                     </td>
                     

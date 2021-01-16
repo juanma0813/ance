@@ -1,0 +1,4 @@
+C:\ANCE\ance\Normanet_web\ClassLibrary1\obj\Debug\Normanet_Proceso_VB.vbprojAssemblyReference.cache
+C:\ANCE\ance\Normanet_web\ClassLibrary1\obj\Debug\ProcesosNormanet.Resources.resources
+C:\ANCE\ance\Normanet_web\ClassLibrary1\obj\Debug\Normanet_Proceso_VB.vbproj.GenerateResource.cache
+C:\ANCE\ance\Normanet_web\ClassLibrary1\obj\Debug\Normanet_Proceso_VB.vbproj.CoreCompileInputs.cache

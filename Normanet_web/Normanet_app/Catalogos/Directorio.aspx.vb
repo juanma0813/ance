@@ -1,5 +1,6 @@
 ﻿Public Class Directorio
     Inherits System.Web.UI.Page
+    Dim listaDirectorio As New List(Of Entidades.DirectorioRequest)
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         getDirectorios()
@@ -35,7 +36,7 @@
 
 
     Private Sub getDirectorios()
-        Dim lst As New List(Of Entidades.DirectorioRequest)
+        'Dim lst As New List(Of Entidades.DirectorioRequest)
         Dim busqueda As New Entidades.DirectorioRequest
 
         busqueda.ID_Directorio = "ECCR"
@@ -43,12 +44,13 @@
         busqueda.Password = ""
         busqueda.Bandera = "s1"
 
-        lst = Proceso.getDirectorio_Get(busqueda)
+        listaDirectorio = Proceso.getDirectorio_Get(busqueda)
 
 
-        For Each item As Entidades.DirectorioRequest In lst
+        For Each item As Entidades.DirectorioRequest In listaDirectorio
             Dim item_ As New Telerik.Web.UI.DropDownListItem()
             item_.Text = item.Nombre
+            item_.Value = item.ID_Directorio
             RadDropDownList1.Items.Add(item_)
         Next
 
@@ -56,5 +58,17 @@
 
     End Sub
 
+    Protected Sub RadDropDownList1_ItemSelected(sender As Object, e As Telerik.Web.UI.DropDownListEventArgs)
 
+        Dim DirSeleccionado = listaDirectorio.Find(Function(dir) dir.ID_Directorio = e.Value)
+        TextBox1.Text = DirSeleccionado.Mail
+        TextBox2.Text = DirSeleccionado.Empresa
+        TextBox3.Text = DirSeleccionado.Domicilio
+        TextBox4.Text = DirSeleccionado.Telefono
+        TextBox5.Text = DirSeleccionado.Password
+        TextBox6.Text = DirSeleccionado.Fax
+
+
+
+    End Sub
 End Class

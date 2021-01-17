@@ -2,7 +2,7 @@
     Inherits System.Web.UI.Page
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
+        getDirectorios()
     End Sub
 
     Protected Sub btnCuentas_ButtonClick(sender As Object, e As Telerik.Web.UI.RadToolBarEventArgs) Handles btnCuentas.ButtonClick
@@ -31,6 +31,29 @@
     Private Sub BotonesNuevo()
         Activar(btnCuentas.Items(eBtnFormularios.Guardar), btnCuentas.Items(eBtnFormularios.Deshacer))
         inactivar(btnCuentas.Items(eBtnFormularios.Nuevo), btnCuentas.Items(eBtnFormularios.Editar))
+    End Sub
+
+
+    Private Sub getDirectorios()
+        Dim lst As New List(Of Entidades.DirectorioRequest)
+        Dim busqueda As New Entidades.DirectorioRequest
+
+        busqueda.ID_Directorio = "ECCR"
+        busqueda.Mail = ""
+        busqueda.Password = ""
+        busqueda.Bandera = "s1"
+
+        lst = Proceso.getDirectorio_Get(busqueda)
+
+
+        For Each item As Entidades.DirectorioRequest In lst
+            Dim item_ As New Telerik.Web.UI.DropDownListItem()
+            item_.Text = item.Nombre
+            RadDropDownList1.Items.Add(item_)
+        Next
+
+
+
     End Sub
 
 

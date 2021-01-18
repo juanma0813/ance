@@ -31,7 +31,7 @@
                 </th>
                 <td style="text-align:left">
                     <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                    <telerik:RadDropDownList ID="RadDropDownList1" runat="server"></telerik:RadDropDownList>
+                    <telerik:RadDropDownList ID="RadDropDownList1" runat="server" DefaultMessage="Seleccione..." AutoPostBack="true" OnItemSelected="RadDropDownList1_ItemSelected"></telerik:RadDropDownList>
                 </td>
               </tr>
                
@@ -46,7 +46,7 @@
                 <telerik:RadToolBarButton Enabled="true" Value="3" ImageUrl="../Imagenes/Botoneras/redo.png" Text="Deshacer"  ToolTip="Deshacer"/>
                 <telerik:RadToolBarButton Enabled="true" Value="1" ImageUrl="../Imagenes/Botoneras/save.png"  Text="Guardar" ToolTip="Guardar" ValidationGroup="PersonalInfoGroup"/>
                  <telerik:RadToolBarButton Enabled="false" Width="50px"></telerik:RadToolBarButton>
-                <telerik:RadToolBarButton Enabled="true" Value="5" ImageUrl="../Imagenes/Botoneras/delete_32.png" Text="Eliminar"  ToolTip="Niveles"/>
+                <telerik:RadToolBarButton Enabled="true" Value="7" ImageUrl="../Imagenes/Botoneras/delete_32.png" Text="Eliminar"  ToolTip="Eliminar"/>
                 <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/exit.png"  Text="Salir" ToolTip="Salir"/>
                 
                 
@@ -77,8 +77,8 @@
              </script>
         </telerik:RadCodeBlock>
         <div id="Validadores">
-        <%--      <asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="txtNombre" ErrorMessage="Nombre" Display="None" ValidationGroup="PersonalInfoGroup" />
-          <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="txtEmpresa" ErrorMessage="Empresa" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="rfvDescripcion" ControlToValidate="TextBox2" ErrorMessage="Descripcion" Display="None" ValidationGroup="PersonalInfoGroup" />
+          <%--<asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="txtEmpresa" ErrorMessage="Empresa" Display="None" ValidationGroup="PersonalInfoGroup" />
             <asp:RequiredFieldValidator runat="server" ID="rfvCorreo" ControlToValidate="txtCorreo" ErrorMessage="Correo" Display="None" ValidationGroup="PersonalInfoGroup" />--%>
         </div>
         <telerik:RadNotification ID="notCampos" runat="server" Animation="Fade" ContentIcon="warning" EnableRoundedCorners="True" EnableShadow="True" Position="Center" SkinID="SkinManager" Title="Problemas con campos" TitleIcon="warning" Width="261px" AutoCloseDelay="6000">

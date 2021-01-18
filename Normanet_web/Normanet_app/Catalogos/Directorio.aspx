@@ -49,7 +49,7 @@
                         <telerik:RadLabel ID="RadLabel2" Text="Nombre" runat="server"></telerik:RadLabel>
                     </th>
                     <td colspan="3">
-                        <telerik:RadDropDownList ID="RadDropDownList1"  Width="100%"  runat="server"></telerik:RadDropDownList>
+                        <telerik:RadDropDownList ID="RadDropDownList1"  Width="100%" DefaultMessage="Seleccione..."  runat="server" AutoPostBack="true" OnItemSelected="RadDropDownList1_ItemSelected"></telerik:RadDropDownList>
                     </td>
                     <td></td>
                     <td></td>
@@ -83,7 +83,7 @@
                   </tr>
                   <tr>
                     <th>
-                        <telerik:RadLabel ID="RadLabel5" Text="Teéfono" runat="server"></telerik:RadLabel>
+                        <telerik:RadLabel ID="RadLabel5" Text="Teléfono" runat="server"></telerik:RadLabel>
                     </th>
                     <td>
                         <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>

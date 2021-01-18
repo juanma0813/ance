@@ -78,20 +78,20 @@ Namespace Entidades
 
     '#End Region
 
-#Region "CARGOS"
-    Public Class Cargos
-        Public Property Bandera As String
-        Public Property xml As String
-        Public Property Descripcion As String
-        Public Property ID_Cargo As String
-        Public Property Comite As String
-        Public Property CT As String
-        Public Property SC As String
-        Public Property GT As String
-        Public Property Dependencia As String
-    End Class
+    '#Region "CARGOS"
+    '    Public Class Cargos
+    '        Public Property Bandera As String
+    '        Public Property xml As String
+    '        Public Property Descripcion As String
+    '        Public Property ID_Cargo As String
+    '        Public Property Comite As String
+    '        Public Property CT As String
+    '        Public Property SC As String
+    '        Public Property GT As String
+    '        Public Property Dependencia As String
+    '    End Class
 
-#End Region
+    '#End Region
 
 #Region "NOTICIAS"
     Public Class CategoriasNotiRequest

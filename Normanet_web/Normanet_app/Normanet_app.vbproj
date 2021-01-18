@@ -421,6 +421,8 @@
     </Compile>
     <Compile Include="Clases\Comites\Entidades\Entidades.vb" />
     <Compile Include="Clases\Comites\Procesos\Proceso.vb" />
+    <Compile Include="Clases\Cargos\Entidades\Entidades.vb" />
+    <Compile Include="Clases\Cargos\Procesos\Proceso.vb" />
     <Compile Include="Clases\Directorio\Entidades\Entidades.vb" />
     <Compile Include="Clases\Directorio\Procesos\Proceso.vb" />
     <Compile Include="clss\clssArchTemp.vb" />

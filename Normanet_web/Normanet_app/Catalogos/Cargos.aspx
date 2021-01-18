@@ -44,10 +44,12 @@
               </tr>
               <tr>
                 <th>
-                    <telerik:RadLabel ID="RadLabel1" Text="Clave:" runat="server"></telerik:RadLabel>
+                    <%--<telerik:RadLabel ID="RadLabel1" Text="Clave:" runat="server"></telerik:RadLabel>--%>
+                    <telerik:RadLabel ID="RadLabel9" Text="Dependencia:" runat="server"></telerik:RadLabel>
                 </th>
                 <td style="text-align:left">
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <telerik:RadDropDownList ID="RadDropDownList2" runat="server"></telerik:RadDropDownList>
+                    <%--<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>--%>
                 </td>
               </tr>
                 <tr>
@@ -115,15 +117,15 @@
                      var toolBar = sender;
                      var button = args.get_item();
 
-                     if (typeof (Page_ClientValidate) == 'function') { Page_ClientValidate(); }
+                     //if (typeof (Page_ClientValidate) == 'function') { Page_ClientValidate(); }
 
-                     switch (button.get_value()) {
-                         case "1":
-                             if (!Page_IsValid) {
-                                 CallClientShow();
-                             }
-                             break;
-                     }
+                     //switch (button.get_value()) {
+                     //    case "1":
+                     //        if (!Page_IsValid) {
+                     //            CallClientShow();
+                     //        }
+                     //        break;
+                     //}
                  }
 
                  function CallClientShow() {

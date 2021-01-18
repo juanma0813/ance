@@ -421,6 +421,8 @@
     </Compile>
     <Compile Include="Clases\Comites\Entidades\Entidades.vb" />
     <Compile Include="Clases\Comites\Procesos\Proceso.vb" />
+    <Compile Include="Clases\Directorio\Entidades\Entidades.vb" />
+    <Compile Include="Clases\Directorio\Procesos\Proceso.vb" />
     <Compile Include="clss\clssArchTemp.vb" />
     <Compile Include="clss\clssConverArchImgAByte.vb" />
     <Compile Include="clss\clssConvertListClassAXml.vb" />

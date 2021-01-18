@@ -2,8 +2,15 @@
     Inherits System.Web.UI.Page
     Dim listaDirectorio As New List(Of Entidades.DirectorioRequest)
 
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Not IsPostBack Then
+
+        Else
+
+        End If
         getDirectorios()
+
     End Sub
 
     Protected Sub btnCuentas_ButtonClick(sender As Object, e As Telerik.Web.UI.RadToolBarEventArgs) Handles btnCuentas.ButtonClick
@@ -14,24 +21,120 @@
         Select Case btnValue
             Case eBtnFormularios.Nuevo
                 BotonesNuevo()
+            Case eBtnFormularios.Editar
+                EditarDirectorio()
             Case eBtnFormularios.Cargos
                 AddWindow(Me.Page, "Catalogos/DirectorioCargos.aspx", "..:: Cargos ::..", 700, 550, False)
                 ScriptManager.RegisterStartupScript(Me.Page, Page.GetType, Guid.NewGuid.ToString, "", True)
             Case eBtnFormularios.Guardar
-                MsgJquery(UpdatePanel2, "Accion guardada correctamente", "..:: Borrame ::..")
+                GuardarDirectorio()
             Case eBtnFormularios.Deshacer
                 lblMensaje.Text = "�Estas seguro de eliminar los datos?"
                 MsgJqueryConfirm(Me.Page, "pnlConfirm", "..:: Demo ::..", UpdatePanel3.ClientID)
             Case eBtnFormularios.Niveles
                 AddWindow(Me.Page, "Catalogos/NivelCargo.aspx", "..:: Nivel Cargo ::..", 400, 400, False)
                 ScriptManager.RegisterStartupScript(Me.Page, Page.GetType, Guid.NewGuid.ToString, "", True)
+            Case eBtnFormularios.Eliminar
+                EliminarDirectorio()
 
         End Select
     End Sub
 
     Private Sub BotonesNuevo()
+
+        ' No lo esta haciendo 
+        NombreDir.Visible = False
+        RadDropDownList1.Enabled = False
+        '
+
+
         Activar(btnCuentas.Items(eBtnFormularios.Guardar), btnCuentas.Items(eBtnFormularios.Deshacer))
         inactivar(btnCuentas.Items(eBtnFormularios.Nuevo), btnCuentas.Items(eBtnFormularios.Editar))
+
+        ' No lo esta haciendo 
+        LimpiarFormulario()
+    End Sub
+
+    Private Sub LimpiarFormulario()
+        TextBox1.Text = ""
+        TextBox2.Text = ""
+        TextBox3.Text = ""
+        TextBox4.Text = ""
+        TextBox5.Text = ""
+        TextBox6.Text = ""
+    End Sub
+
+    Private Sub GuardarDirectorio()
+        Dim Dir = New Entidades.DirectorioRequest
+
+        Dir.Nombre = NombreDir.Text
+        Dim sGUID As String = System.Guid.NewGuid.ToString()
+        Dir.ID_Directorio = CrearID(12)
+        Dir.Empresa = TextBox2.Text
+        Dir.Domicilio = TextBox3.Text
+        Dir.Telefono = TextBox4.Text
+        Dir.Fax = TextBox6.Text
+        Dir.Mail = TextBox1.Text
+        Dir.Password = TextBox5.Text
+        Dir.Bandera = "i1"
+
+
+        Dim respuesta = ProcesoDirectorio.createDirectorio(Dir)
+
+
+        If respuesta Then
+            MsgJquery(UpdatePanel2, "Accion guardada correctamente", "..:: Borrame ::..")
+            LimpiarFormulario()
+        End If
+
+
+
+    End Sub
+
+    Private Sub EditarDirectorio()
+        Dim Dir = New Entidades.DirectorioRequest
+        Dir.ID_Directorio = RadDropDownList1.SelectedItem.Value
+        Dir.Nombre = RadDropDownList1.SelectedItem.Text
+        Dir.Empresa = TextBox2.Text
+        Dir.Domicilio = TextBox3.Text
+        Dir.Telefono = TextBox4.Text
+        Dir.Fax = TextBox6.Text
+        Dir.Mail = TextBox1.Text
+        Dir.Password = TextBox5.Text
+        Dir.Bandera = "u1"
+
+
+        Dim respuesta = ProcesoDirectorio.updateDirectorio(Dir)
+
+
+        If respuesta Then
+            LimpiarFormulario()
+            MsgJquery(UpdatePanel2, "Accion guardada correctamente", "..:: Borrame ::..")
+        End If
+
+
+
+    End Sub
+
+    Private Sub EliminarDirectorio()
+        Dim Dir = New Entidades.DirectorioRequest
+        Dir.ID_Directorio = RadDropDownList1.SelectedItem.Value
+        Dir.Nombre = RadDropDownList1.SelectedItem.Text
+        Dir.Empresa = TextBox2.Text
+        Dir.Domicilio = TextBox3.Text
+        Dir.Telefono = TextBox4.Text
+        Dir.Fax = TextBox6.Text
+        Dir.Mail = TextBox1.Text
+        Dir.Password = TextBox5.Text
+        Dir.Bandera = "d1"
+
+        Dim respuesta = ProcesoDirectorio.deleteDirectorio(Dir)
+
+        If respuesta Then
+            LimpiarFormulario()
+            MsgJquery(UpdatePanel2, "Accion guardada correctamente", "..:: Borrame ::..")
+        End If
+
     End Sub
 
 
@@ -39,12 +142,13 @@
         'Dim lst As New List(Of Entidades.DirectorioRequest)
         Dim busqueda As New Entidades.DirectorioRequest
 
-        busqueda.ID_Directorio = "ECCR"
+        busqueda.ID_Directorio = "TTT"
         busqueda.Mail = ""
         busqueda.Password = ""
         busqueda.Bandera = "s1"
 
-        listaDirectorio = Proceso.getDirectorio_Get(busqueda)
+        listaDirectorio.Clear()
+        listaDirectorio = ProcesoDirectorio.getDirectorio(busqueda)
 
 
         For Each item As Entidades.DirectorioRequest In listaDirectorio
@@ -71,4 +175,14 @@
 
 
     End Sub
+
+    Public Function CrearID(longitud As Integer) As String
+        Dim caracteres As String = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+        Dim res As New StringBuilder()
+        Dim rnd As New Random()
+        While 0 < System.Math.Max(System.Threading.Interlocked.Decrement(longitud), longitud + 1)
+            res.Append(caracteres(rnd.[Next](caracteres.Length)))
+        End While
+        Return res.ToString()
+    End Function
 End Class

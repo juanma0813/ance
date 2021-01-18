@@ -49,7 +49,8 @@
                         <telerik:RadLabel ID="RadLabel2" Text="Nombre" runat="server"></telerik:RadLabel>
                     </th>
                     <td colspan="3">
-                        <telerik:RadDropDownList ID="RadDropDownList1"  Width="100%" DefaultMessage="Seleccione..."  runat="server" AutoPostBack="true" OnItemSelected="RadDropDownList1_ItemSelected"></telerik:RadDropDownList>
+                        <telerik:RadDropDownList ID="RadDropDownList1" Width="100%" DefaultMessage="Seleccione..."  runat="server" AutoPostBack="true" OnItemSelected="RadDropDownList1_ItemSelected"></telerik:RadDropDownList>
+                        <asp:TextBox ID="NombreDir" Width="100%" runat="server"></asp:TextBox>
                     </td>
                     <td></td>
                     <td></td>
@@ -125,30 +126,25 @@
                         </ColumnGroups>
                         </MasterTableView>
                     </telerik:RadGrid>
-
-
                     </td>
-                    
                   </tr>
                 </table>
-
-                            <!----------------------------------B O T O N E R A--------------------------------------------->
-                            <telerik:RadToolBar ID="btnCuentas" Runat="server" Height="32" Width="100%" SkinID="SkinManager" OnClientButtonClicking="clientButtonClicking">  
-                                <Items>
-                                   <telerik:RadToolBarButton Enabled="true" Value="0" ImageUrl="../Imagenes/Botoneras/New.png" Text="Nuevo" ToolTip ="Nuevo"/>
-                                    <telerik:RadToolBarButton Enabled="true" Value="2" ImageUrl="../Imagenes/Botoneras/Edit.png" Text="Editar"  ToolTip="Editar"/>
-                                    <telerik:RadToolBarButton Enabled="true" Value="3" ImageUrl="../Imagenes/Botoneras/redo.png" Text="Deshacer"  ToolTip="Deshacer"/>
-                                    <telerik:RadToolBarButton Enabled="true" Value="1" ImageUrl="../Imagenes/Botoneras/save.png" Text="Guardar"  ToolTip="Guardar" ValidationGroup="PersonalInfoGroup"/>
-                                    <telerik:RadToolBarButton Enabled="true" Value="9" ImageUrl="../Imagenes/Botoneras/cargos.png" Text="Cargos"  ToolTip="Cargos"/>
-                                    <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/enabled.png" Text="Activar"  ToolTip="Activar"/>
-                                    <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/Password.png" Text="Password"  ToolTip="Password"/>
-                                    <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/catalogos.png" Text="Resumen"  ToolTip="Resumen"/>
-                                     <telerik:RadToolBarButton Enabled="false" Width="50px"></telerik:RadToolBarButton>
-                                    <telerik:RadToolBarButton Enabled="true" Value="7" ImageUrl="../Imagenes/Botoneras/delete_32.png" Text=""  ToolTip="Eliminar"/>
-                                    <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/exit.png" Text=""  ToolTip="Salir"/>
-                                </Items>
-                            </telerik:RadToolBar>
-                
+                        <!----------------------------------B O T O N E R A--------------------------------------------->
+                        <telerik:RadToolBar ID="btnCuentas" Runat="server" Height="32" Width="100%" SkinID="SkinManager" OnClientButtonClicking="clientButtonClicking">  
+                            <Items>
+                                <telerik:RadToolBarButton Enabled="true" Value="0" ImageUrl="../Imagenes/Botoneras/New.png" Text="Nuevo" ToolTip ="Nuevo"/>
+                                <telerik:RadToolBarButton Enabled="true" Value="2" ImageUrl="../Imagenes/Botoneras/Edit.png" Text="Editar"  ToolTip="Editar"/>
+                                <telerik:RadToolBarButton Enabled="true" Value="3" ImageUrl="../Imagenes/Botoneras/redo.png" Text="Deshacer"  ToolTip="Deshacer"/>
+                                <telerik:RadToolBarButton Enabled="true" Value="1" ImageUrl="../Imagenes/Botoneras/save.png" Text="Guardar"  ToolTip="Guardar" ValidationGroup="PersonalInfoGroup"/>
+                                <telerik:RadToolBarButton Enabled="true" Value="9" ImageUrl="../Imagenes/Botoneras/cargos.png" Text="Cargos"  ToolTip="Cargos"/>
+                                <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/enabled.png" Text="Activar"  ToolTip="Activar"/>
+                                <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/Password.png" Text="Password"  ToolTip="Password"/>
+                                <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/catalogos.png" Text="Resumen"  ToolTip="Resumen"/>
+                                <telerik:RadToolBarButton Enabled="false" Width="50px"></telerik:RadToolBarButton>
+                                <telerik:RadToolBarButton Enabled="true" Value="7" ImageUrl="../Imagenes/Botoneras/delete_32.png" Text=""  ToolTip="Eliminar"/>
+                                <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/exit.png" Text=""  ToolTip="Salir"/>
+                            </Items>
+                        </telerik:RadToolBar>
             </telerik:RadPageView>
             <telerik:RadPageView runat="server" ID="RadPageView2">
                 <table style="width: 100%; height:100px;" class="SinBorde">
@@ -248,15 +244,19 @@
                  }
 
                  function CallClientShow() {
-                     
-                    notification.show();
+                     var notification = $find("<%=notCampos.ClientID%>");
+                     notification.show();
                  }
              </script>
         </telerik:RadCodeBlock>
         <div id="Validadores">
-        <%--      <asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="txtNombre" ErrorMessage="Nombre" Display="None" ValidationGroup="PersonalInfoGroup" />
-          <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="txtEmpresa" ErrorMessage="Empresa" Display="None" ValidationGroup="PersonalInfoGroup" />
-            <asp:RequiredFieldValidator runat="server" ID="rfvCorreo" ControlToValidate="txtCorreo" ErrorMessage="Correo" Display="None" ValidationGroup="PersonalInfoGroup" />--%>
+              <asp:RequiredFieldValidator runat="server" ID="rfvEmail" ControlToValidate="TextBox1" ErrorMessage="Email" Display="None" ValidationGroup="PersonalInfoGroup" />
+<asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="NombreDir" ErrorMessage="Nombre" Display="None" ValidationGroup="PersonalInfoGroup" />
+<asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="TextBox2" ErrorMessage="Empresa" Display="None" ValidationGroup="PersonalInfoGroup" />
+<asp:RequiredFieldValidator runat="server" ID="rfvDomicilio" ControlToValidate="TextBox3" ErrorMessage="Domicilio" Display="None" ValidationGroup="PersonalInfoGroup" />
+<asp:RequiredFieldValidator runat="server" ID="rfvClave" ControlToValidate="TextBox6" ErrorMessage="Clave" Display="None" ValidationGroup="PersonalInfoGroup" />
+<asp:RequiredFieldValidator runat="server" ID="rfvTelefono" ControlToValidate="TextBox4" ErrorMessage="Teléfono" Display="None" ValidationGroup="PersonalInfoGroup" />
+<asp:RequiredFieldValidator runat="server" ID="rfvPassword" ControlToValidate="TextBox5" ErrorMessage="Password" Display="None" ValidationGroup="PersonalInfoGroup" />
         </div>
         <telerik:RadNotification ID="notCampos" runat="server" Animation="Fade" ContentIcon="warning" EnableRoundedCorners="True" EnableShadow="True" Position="Center" SkinID="SkinManager" Title="Problemas con campos" TitleIcon="warning" Width="261px" AutoCloseDelay="6000">
             <ContentTemplate>

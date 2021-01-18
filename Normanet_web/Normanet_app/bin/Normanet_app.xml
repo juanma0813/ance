@@ -2070,6 +2070,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Normanet_app.Directorio._NombreDir">
+<summary>
+Control NombreDir.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Normanet_app.Directorio._RadLabel3">
 <summary>
 Control RadLabel3.
@@ -2280,6 +2289,69 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Normanet_app.Directorio._block">
 <summary>
 Control block.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Directorio._rfvEmail">
+<summary>
+Control rfvEmail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Directorio._rfvNombre">
+<summary>
+Control rfvNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Directorio._rfvEmpresa">
+<summary>
+Control rfvEmpresa.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Directorio._rfvDomicilio">
+<summary>
+Control rfvDomicilio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Directorio._rfvClave">
+<summary>
+Control rfvClave.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Directorio._rfvTelefono">
+<summary>
+Control rfvTelefono.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Directorio._rfvPassword">
+<summary>
+Control rfvPassword.
 </summary>
 <remarks>
 Campo generado automáticamente.

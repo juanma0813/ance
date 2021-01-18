@@ -419,6 +419,8 @@
       <DependentUpon>TitularesSuplentes.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Clases\CategoriasNoticias\Entidades\Entidades.vb" />
+    <Compile Include="Clases\CategoriasNoticias\Procesos\Proceso.vb" />
     <Compile Include="Clases\Comites\Entidades\Entidades.vb" />
     <Compile Include="Clases\Comites\Procesos\Proceso.vb" />
     <Compile Include="clss\clssArchTemp.vb" />

@@ -101,9 +101,7 @@ C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\bin\Newtonsoft.Json.d
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\bin\Telerik.Web.UI.dll
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\bin\Telerik.Web.UI.Skins.dll
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\bin\clsConeccion.dll
-C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\bin\Microsoft.AnalysisServices.AdomdClient.dll
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\bin\Newtonsoft.Json.xml
-C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.vbprojAssemblyReference.cache
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.Resources.resources
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.vbproj.GenerateResource.cache
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.dll.licenses
@@ -112,3 +110,4 @@ C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_ap
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.dll
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.xml
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.pdb
+C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.vbprojAssemblyReference.cache

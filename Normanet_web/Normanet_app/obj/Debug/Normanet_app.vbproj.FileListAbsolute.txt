@@ -124,7 +124,6 @@ C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\bin\Newtonsoft.J
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\bin\Telerik.Web.UI.dll
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\bin\Telerik.Web.UI.Skins.dll
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\bin\clsConeccion.dll
-C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\bin\Microsoft.AnalysisServices.AdomdClient.dll
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\bin\Newtonsoft.Json.xml
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\obj\Debug\Normanet_app.vbprojAssemblyReference.cache
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\obj\Debug\Normanet_app.Resources.resources

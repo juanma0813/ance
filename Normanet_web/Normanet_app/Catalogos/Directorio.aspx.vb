@@ -149,7 +149,6 @@
         busqueda.Password = ""
         busqueda.Bandera = "s1"
 
-        RadDropDownList2.Items.Clear()
         listaDirectorio = ProcesoDirectorio.getDirectorio(busqueda)
 
 

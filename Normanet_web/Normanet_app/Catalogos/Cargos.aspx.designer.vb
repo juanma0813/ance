@@ -41,24 +41,6 @@ Partial Public Class Cargos
     Protected WithEvents rapContenedor As Global.Telerik.Web.UI.RadAjaxPanel
 
     '''<summary>
-    '''Control RadLabel7.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents RadLabel7 As Global.Telerik.Web.UI.RadLabel
-
-    '''<summary>
-    '''Control TextBox3.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
     '''Control RadLabel2.
     '''</summary>
     '''<remarks>
@@ -201,6 +183,24 @@ Partial Public Class Cargos
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents block As Global.Telerik.Web.UI.RadCodeBlock
+
+    '''<summary>
+    '''Control rfvDescripcion.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents rfvDescripcion As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''Control rfvDependencia.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents rfvDependencia As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''Control notCampos.

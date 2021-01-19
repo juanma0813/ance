@@ -31,7 +31,7 @@
                 </th>
                 <td style="text-align:left">
                     <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                    <telerik:RadDropDownList ID="RadDropDownList1" runat="server"></telerik:RadDropDownList>
+                    <telerik:RadDropDownList ID="RadDropDownList1" runat="server"  AutoPostBack="true" OnItemSelected="RadDropDownList1_ItemSelected"></telerik:RadDropDownList>
                 </td>
               </tr>
                 <tr>
@@ -86,15 +86,15 @@
                      var toolBar = sender;
                      var button = args.get_item();
 
-                     if (typeof (Page_ClientValidate) == 'function') { Page_ClientValidate(); }
+                     //if (typeof (Page_ClientValidate) == 'function') { Page_ClientValidate(); }
 
-                     switch (button.get_value()) {
-                         case "1":
-                             if (!Page_IsValid) {
-                                 CallClientShow();
-                             }
-                             break;
-                     }
+                     //switch (button.get_value()) {
+                     //    case "1":
+                     //        if (!Page_IsValid) {
+                     //            CallClientShow();
+                     //        }
+                     //        break;
+                     //}
                  }
 
                  function CallClientShow() {

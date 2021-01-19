@@ -31,7 +31,7 @@
                 </th>
                 <td style="text-align:left">
                     <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                    <telerik:RadDropDownList ID="RadDropDownList1" runat="server"></telerik:RadDropDownList>
+                    <telerik:RadDropDownList ID="RadDropDownList1" runat="server" AutoPostBack="true" OnItemSelected="RadDropDownList1_ItemSelected"></telerik:RadDropDownList>
                 </td>
               </tr>
                
@@ -45,7 +45,7 @@
                 <telerik:RadToolBarButton Enabled="true" Value="2" ImageUrl="../Imagenes/Botoneras/Edit.png" Text="Editar" ToolTip="Editar"/>
                 <telerik:RadToolBarButton Enabled="true" Value="3" ImageUrl="../Imagenes/Botoneras/redo.png" Text="Deshacer" ToolTip="Deshacer"/>
                 <telerik:RadToolBarButton Enabled="true" Value="1" ImageUrl="../Imagenes/Botoneras/save.png" Text="Guardar" ToolTip="Guardar" ValidationGroup="PersonalInfoGroup"/>
-                <telerik:RadToolBarButton Enabled="true" Value="5" ImageUrl="../Imagenes/Botoneras/inhabilitar.png" Text="Inactivar" ToolTip="Inactivar"/>
+                <telerik:RadToolBarButton Enabled="true" Value="6" ImageUrl="../Imagenes/Botoneras/inhabilitar.png" Text="Inactivar" ToolTip="Inactivar"/>
                 <telerik:RadToolBarButton Enabled="false" Width="50px"></telerik:RadToolBarButton>
                 <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/exit.png" Text="Salir" ToolTip="Salir"/>
                 
@@ -59,15 +59,15 @@
                      var toolBar = sender;
                      var button = args.get_item();
 
-                     if (typeof (Page_ClientValidate) == 'function') { Page_ClientValidate(); }
+                     //if (typeof (Page_ClientValidate) == 'function') { Page_ClientValidate(); }
 
-                     switch (button.get_value()) {
-                         case "1":
-                             if (!Page_IsValid) {
-                                 CallClientShow();
-                             }
-                             break;
-                     }
+                     //switch (button.get_value()) {
+                     //    case "1":
+                     //        if (!Page_IsValid) {
+                     //            CallClientShow();
+                     //        }
+                     //        break;
+                     //}
                  }
 
                  function CallClientShow() {

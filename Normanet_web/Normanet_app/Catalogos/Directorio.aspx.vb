@@ -1,15 +1,17 @@
 ﻿Public Class Directorio
     Inherits System.Web.UI.Page
     Dim listaDirectorio As New List(Of Entidades.DirectorioRequest)
+    Dim listaComites As New List(Of Entidades.getComites)
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         If Not IsPostBack Then
-
+            getDirectorios()
+            getComites()
         Else
 
         End If
-        getDirectorios()
+
 
     End Sub
 
@@ -147,7 +149,6 @@
         busqueda.Password = ""
         busqueda.Bandera = "s1"
 
-        listaDirectorio.Clear()
         listaDirectorio = ProcesoDirectorio.getDirectorio(busqueda)
 
 
@@ -172,9 +173,26 @@
         TextBox5.Text = DirSeleccionado.Password
         TextBox6.Text = DirSeleccionado.Fax
 
+    End Sub
 
+    Private Sub getComites()
+
+        Dim lst As New List(Of Entidades.getComites)
+        lst = Proceso.getComites_Get("CT 14", "SC 14 A")
+
+
+        RadDropDownList2.Items.Clear()
+        listaComites = Proceso.getComites_Get("CT 14", "SC 14 A")
+
+        For Each item As Entidades.getComites In listaComites
+            Dim item_ As New Telerik.Web.UI.DropDownListItem()
+            item_.Text = item.Descripcion
+            item_.Value = item.ID_Comite
+            RadDropDownList2.Items.Add(item_)
+        Next
 
     End Sub
+
 
     Public Function CrearID(longitud As Integer) As String
         Dim caracteres As String = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"

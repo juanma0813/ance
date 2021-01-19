@@ -25,29 +25,31 @@
         <br />
         <div>
             <table style="width: 100%; height:100px;" class="SinBorde">
-                <tr>
+                <%--<tr>
                 <th>
                     <telerik:RadLabel ID="RadLabel7" Text="Clave:" runat="server"></telerik:RadLabel>
                 </th>
                 <td style="text-align:left">
                     <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
                 </td>
-              </tr>
+              </tr>--%>
                 <tr>
                 <th>
                     <telerik:RadLabel ID="RadLabel2" Text="Descripción:" runat="server"></telerik:RadLabel>
                 </th>
                 <td style="text-align:left">
                      <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                    <telerik:RadDropDownList ID="RadDropDownList1" runat="server"></telerik:RadDropDownList>
+                    <telerik:RadDropDownList ID="RadDropDownList1" runat="server" DefaultMessage="Seleccione..." AutoPostBack="true" OnItemSelected="RadDropDownList1_ItemSelected"></telerik:RadDropDownList>
                 </td>
               </tr>
               <tr>
                 <th>
-                    <telerik:RadLabel ID="RadLabel1" Text="Clave:" runat="server"></telerik:RadLabel>
+                    <%--<telerik:RadLabel ID="RadLabel1" Text="Clave:" runat="server"></telerik:RadLabel>--%>
+                    <telerik:RadLabel ID="RadLabel9" Text="Dependencia:" runat="server"></telerik:RadLabel>
                 </th>
                 <td style="text-align:left">
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <telerik:RadDropDownList ID="RadDropDownList2" runat="server" DefaultMessage="Seleccione..."></telerik:RadDropDownList>
+                    <%--<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>--%>
                 </td>
               </tr>
                 <tr>
@@ -133,9 +135,9 @@
              </script>
         </telerik:RadCodeBlock>
         <div id="Validadores">
-        <%--      <asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="txtNombre" ErrorMessage="Nombre" Display="None" ValidationGroup="PersonalInfoGroup" />
-          <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="txtEmpresa" ErrorMessage="Empresa" Display="None" ValidationGroup="PersonalInfoGroup" />
-            <asp:RequiredFieldValidator runat="server" ID="rfvCorreo" ControlToValidate="txtCorreo" ErrorMessage="Correo" Display="None" ValidationGroup="PersonalInfoGroup" />--%>
+            <%--<asp:RequiredFieldValidator runat="server" ID="rfvClave" ControlToValidate="TextBox3" ErrorMessage="Clave" Display="None" ValidationGroup="PersonalInfoGroup" />--%>
+            <asp:RequiredFieldValidator runat="server" ID="rfvDescripcion" ControlToValidate="TextBox2" ErrorMessage="Descripción" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="rfvDependencia" ControlToValidate="RadDropDownList2" ErrorMessage="Dependencia" Display="None" ValidationGroup="PersonalInfoGroup" />
         </div>
         <telerik:RadNotification ID="notCampos" runat="server" Animation="Fade" ContentIcon="warning" EnableRoundedCorners="True" EnableShadow="True" Position="Center" SkinID="SkinManager" Title="Problemas con campos" TitleIcon="warning" Width="261px" AutoCloseDelay="6000">
             <ContentTemplate>

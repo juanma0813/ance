@@ -29,16 +29,28 @@ Namespace Entidades
         Public Property GT As String
     End Class
     Public Class addComite_post_put_Parameter
-        Public Property Bandera As String
+        Public Property Bandera As Integer
         Public Property Comite As String
         Public Property Descripcion As String
         Public Property Responsable As String
-        Public Property Inactivo As String
+        Public Property Inactivo As Integer
         Public Property Objetivo As String
         Public Property CT As String
         Public Property SC As String
         Public Property GT As String
     End Class
+
+    Public Class Empleados
+        Public Property IdUsuario As String
+        Public Property Email As String
+        Public Property Nombre As String
+        Public Property NOM_PUESTO As String
+        Public Property TITULO As String
+        Public Property Id_Sucursal As Integer?
+        Public Property Inactivo As Boolean?
+    End Class
+
+
 
 #End Region
 

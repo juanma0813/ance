@@ -41,6 +41,15 @@ Partial Public Class Comite
     Protected WithEvents rapContenedor As Global.Telerik.Web.UI.RadAjaxPanel
 
     '''<summary>
+    '''Control options.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents options As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
     '''Control TextBox6.
     '''</summary>
     '''<remarks>
@@ -48,6 +57,15 @@ Partial Public Class Comite
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TextBox6 As Global.System.Web.UI.WebControls.TextBox
+
+    '''<summary>
+    '''Control Button1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''Control RadTreeView1.
@@ -86,13 +104,13 @@ Partial Public Class Comite
     Protected WithEvents RadLabel2 As Global.Telerik.Web.UI.RadLabel
 
     '''<summary>
-    '''Control TextBox1.
+    '''Control txtcomitecnico.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtcomitecnico As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control RadLabel3.
@@ -104,13 +122,13 @@ Partial Public Class Comite
     Protected WithEvents RadLabel3 As Global.Telerik.Web.UI.RadLabel
 
     '''<summary>
-    '''Control TextBox2.
+    '''Control txtsubcomite.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox2 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtsubcomite As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control RadLabel4.
@@ -122,13 +140,13 @@ Partial Public Class Comite
     Protected WithEvents RadLabel4 As Global.Telerik.Web.UI.RadLabel
 
     '''<summary>
-    '''Control TextBox3.
+    '''Control txtgrupo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox3 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtgrupo As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control RadLabel5.
@@ -140,13 +158,13 @@ Partial Public Class Comite
     Protected WithEvents RadLabel5 As Global.Telerik.Web.UI.RadLabel
 
     '''<summary>
-    '''Control TextBox4.
+    '''Control txtdescripcion.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox4 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtdescripcion As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control RadLabel6.
@@ -158,13 +176,13 @@ Partial Public Class Comite
     Protected WithEvents RadLabel6 As Global.Telerik.Web.UI.RadLabel
 
     '''<summary>
-    '''Control TextBox5.
+    '''Control txtobjetivo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents TextBox5 As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents txtobjetivo As Global.System.Web.UI.WebControls.TextBox
 
     '''<summary>
     '''Control RadLabel7.
@@ -246,6 +264,42 @@ Partial Public Class Comite
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents rfvCorreo As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''Control RequiredFieldValidator1.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator1 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''Control RequiredFieldValidator2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator2 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''Control RequiredFieldValidator3.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator3 As Global.System.Web.UI.WebControls.RequiredFieldValidator
+
+    '''<summary>
+    '''Control RequiredFieldValidator4.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RequiredFieldValidator4 As Global.System.Web.UI.WebControls.RequiredFieldValidator
 
     '''<summary>
     '''Control notCampos.

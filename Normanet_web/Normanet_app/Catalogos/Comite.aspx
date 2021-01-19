@@ -24,12 +24,14 @@
         <!-- ------------------------------C O N T E N I D O------------------------------------------->
         <br />
         <div>
+            <asp:TextBox ID="options"  runat="server" style="display:none"></asp:TextBox>
             <table style="width: 100%; height:100px;" class="SinBorde">
                     <tr>
                     <td rowspan="9" style="width: 40%;">
                         <br />
-                        <asp:TextBox ID="TextBox6" runat="server" Width="98%" placeholder="Buscar..." ></asp:TextBox>
-                         <telerik:RadTreeView RenderMode="Classic" ID="RadTreeView1" runat="server"  Width="100%" Height="100%">
+                        <asp:TextBox ID="TextBox6" AutoCompleteType="None" OnDataBinding="TextBox6_TextChanged" AutoPostBack="true" OnTextChanged="TextBox6_TextChanged" runat="server" Width="70%" placeholder="Buscar..." ></asp:TextBox>
+                        <asp:Button ID="Button1" OnClick="Button1_Click" runat="server" Text="Button" />
+                        <telerik:RadTreeView RenderMode="Classic" OnNodeClick="RadTreeView1_NodeClick" ID="RadTreeView1" runat="server"  Width="100%" Height="100%">
        
                         </telerik:RadTreeView>
                     </td>
@@ -48,7 +50,7 @@
                             <telerik:RadLabel ID="RadLabel2" Text="Comité Técnico:" runat="server"></telerik:RadLabel>
                         </th>
                         <td>
-                            <asp:TextBox ID="TextBox1" runat="server" Width="98%"></asp:TextBox>
+                            <asp:TextBox ID="txtcomitecnico" runat="server" Width="98%"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -56,7 +58,7 @@
                             <telerik:RadLabel ID="RadLabel3" Text="Subcomité:" runat="server"></telerik:RadLabel>
                         </th>
                         <td>
-                            <asp:TextBox ID="TextBox2" runat="server" Width="98%"></asp:TextBox>
+                            <asp:TextBox ID="txtsubcomite" runat="server" Width="98%"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -64,7 +66,7 @@
                             <telerik:RadLabel ID="RadLabel4" Text="Grupo de Trabajo:" runat="server"></telerik:RadLabel>
                         </th>
                         <td>
-                            <asp:TextBox ID="TextBox3" runat="server" Width="98%"></asp:TextBox>
+                            <asp:TextBox ID="txtgrupo" runat="server" Width="98%"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -72,7 +74,7 @@
                             <telerik:RadLabel ID="RadLabel5" Text="Descripción:" runat="server"></telerik:RadLabel>
                         </th>
                         <td>
-                            <asp:TextBox ID="TextBox4" runat="server" Width="98%" TextMode="MultiLine"></asp:TextBox>
+                            <asp:TextBox ID="txtdescripcion" runat="server" Width="98%" TextMode="MultiLine"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -80,7 +82,7 @@
                             <telerik:RadLabel ID="RadLabel6" Text="Objetivo:" runat="server"></telerik:RadLabel>
                         </th>
                         <td>
-                            <asp:TextBox ID="TextBox5" runat="server" Width="98%"></asp:TextBox>
+                            <asp:TextBox ID="txtobjetivo" runat="server" Width="98%"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -145,8 +147,13 @@
         </telerik:RadCodeBlock>
         <div id="Validadores">
         <asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="txtNombre" ErrorMessage="Comité" Display="None" ValidationGroup="PersonalInfoGroup" />
-          <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="TextBox1" ErrorMessage="Comité Técnico" Display="None" ValidationGroup="PersonalInfoGroup" />
-            <asp:RequiredFieldValidator runat="server" ID="rfvCorreo" ControlToValidate="TextBox2" ErrorMessage="Subcomité" Display="None" ValidationGroup="PersonalInfoGroup" />
+          <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="txtcomitecnico" ErrorMessage="Comité Técnico" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="rfvCorreo" ControlToValidate="txtdescripcion" ErrorMessage="Descripción" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator1" ControlToValidate="txtgrupo" ErrorMessage="Grupo" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator2" ControlToValidate="txtobjetivo" ErrorMessage="Objetivo" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator3" ControlToValidate="DropDownList1" ErrorMessage="Responsable" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="RequiredFieldValidator4" ControlToValidate="txtsubcomite" ErrorMessage="Subcomité" Display="None" ValidationGroup="PersonalInfoGroup" />
+
         </div>
         <telerik:RadNotification ID="notCampos" runat="server" Animation="Fade" ContentIcon="warning" EnableRoundedCorners="True" EnableShadow="True" Position="Center" SkinID="SkinManager" Title="Problemas con campos" TitleIcon="warning" Width="261px" AutoCloseDelay="6000">
             <ContentTemplate>

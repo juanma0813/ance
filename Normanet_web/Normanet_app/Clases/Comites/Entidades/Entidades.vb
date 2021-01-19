@@ -138,36 +138,7 @@ Namespace Entidades
 
 
 
-#Region "REMITENTES"
-    Public Class RemitentesRequest
-        Public Property IdRemitente As String
-        Public Property Nombre As String
-        Public Property Empresa As String
-        Public Property Puesto As String
-        Public Property Email As String
-        Public Property EmailAlterno As String
-        Public Property FechaAlta As String
-        Public Property Activo As String
-        Public Property Bandera As String
-    End Class
 
-#End Region
-#Region "NOMBRAMIENTO"
-    Public Class NombramientoRequest
-        Public Property IdNombramiento As String
-        Public Property Folio As String
-        Public Property FechaIngreso As String
-        Public Property IdRemitente As String
-        Public Property Nombramiento As String
-        Public Property FechaRespuestaMaxima As String
-        Public Property FechaRespuestaVencimiento As String
-        Public Property RequiereRespuesta As String
-        Public Property FechaRespuestaReal As String
-        Public Property Activo As String
-        Public Property Bandera As String
-    End Class
-
-#End Region
 #Region "EMPLEADOS"
     Public Class EmpleadoRequest
         Public Property Bandera As String

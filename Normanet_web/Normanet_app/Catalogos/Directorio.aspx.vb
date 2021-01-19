@@ -1,4 +1,6 @@
-﻿Public Class Directorio
+﻿Imports Telerik.Web.UI
+
+Public Class Directorio
     Inherits System.Web.UI.Page
     Dim listaDirectorio As New List(Of Entidades.DirectorioRequest)
     Dim listaComites As New List(Of Entidades.getComites)
@@ -141,10 +143,8 @@
 
 
     Private Sub getDirectorios()
-        'Dim lst As New List(Of Entidades.DirectorioRequest)
         Dim busqueda As New Entidades.DirectorioRequest
 
-        busqueda.ID_Directorio = "TTT"
         busqueda.Mail = ""
         busqueda.Password = ""
         busqueda.Bandera = "s1"
@@ -159,9 +159,29 @@
             RadDropDownList1.Items.Add(item_)
         Next
 
+        RadGrid2.MasterTableView.DataSource = listaDirectorio
+        RadGrid2.DataBind()
+
 
 
     End Sub
+
+    Private Sub getDirectorio(ByVal Directorio As String)
+        Dim listaDirectorio As New List(Of Entidades.DirectorioRequest)
+        Dim busqueda As New Entidades.DirectorioRequest
+        busqueda.Bandera = "s1"
+        listaDirectorio = ProcesoDirectorio.getDirectorio(busqueda)
+
+
+        Dim DirSeleccionado = listaDirectorio.Find(Function(dir) dir.ID_Directorio = Directorio)
+        TextBox1.Text = DirSeleccionado.Mail
+        TextBox2.Text = DirSeleccionado.Empresa
+        TextBox3.Text = DirSeleccionado.Domicilio
+        TextBox4.Text = DirSeleccionado.Telefono
+        TextBox5.Text = DirSeleccionado.Password
+        TextBox6.Text = DirSeleccionado.Fax
+    End Sub
+
 
     Protected Sub RadDropDownList1_ItemSelected(sender As Object, e As Telerik.Web.UI.DropDownListEventArgs)
 
@@ -203,4 +223,25 @@
         End While
         Return res.ToString()
     End Function
+
+    Protected Sub RadGrid2_ItemCommand(sender As Object, e As Telerik.Web.UI.GridCommandEventArgs)
+        Dim Seleccionado = ""
+        If e.CommandName = "RowClick" Then
+            Dim strTxt As String = String.Empty
+
+            If TypeOf e.Item Is GridDataItem AndAlso e.Item.Selected Then
+                Dim dataItem As GridDataItem = CType(e.Item, GridDataItem)
+
+                For Each col As GridColumn In RadGrid2.MasterTableView.RenderColumns
+
+                    If col.UniqueName = "ID_Directorio" Then
+                        Seleccionado = (dataItem(col.UniqueName).Text)
+                        getDirectorio(Seleccionado)
+                    End If
+                Next
+            End If
+        End If
+
+
+    End Sub
 End Class

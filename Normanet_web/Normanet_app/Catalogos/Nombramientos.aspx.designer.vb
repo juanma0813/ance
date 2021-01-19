@@ -149,6 +149,15 @@ Partial Public Class Nombramientos
     Protected WithEvents RadLabel6 As Global.Telerik.Web.UI.RadLabel
 
     '''<summary>
+    '''Control RadDatePicker4.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents RadDatePicker4 As Global.Telerik.Web.UI.RadDatePicker
+
+    '''<summary>
     '''Control RadLabel7.
     '''</summary>
     '''<remarks>

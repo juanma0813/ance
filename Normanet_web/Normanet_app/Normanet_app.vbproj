@@ -427,6 +427,10 @@
     <Compile Include="Clases\Cargos\Procesos\Proceso.vb" />
     <Compile Include="Clases\Representacion\Entidades\Entidades.vb" />
     <Compile Include="Clases\Representacion\Procesos\Proceso.vb" />
+    <Compile Include="Clases\Nombramiento\Entidades\Entidades.vb" />
+    <Compile Include="Clases\Nombramiento\Procesos\Proceso.vb" />
+    <Compile Include="Clases\Remitentes\Entidades\Entidades.vb" />
+    <Compile Include="Clases\Remitentes\Procesos\Proceso.vb" />
     <Compile Include="Clases\Sectores\Entidades\Entidades.vb" />
     <Compile Include="Clases\Sectores\Procesos\Proceso.vb" />
     <Compile Include="Clases\Directorio\Entidades\Entidades.vb" />

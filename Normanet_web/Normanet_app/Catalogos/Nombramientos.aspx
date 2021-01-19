@@ -66,14 +66,17 @@
                         
                     </td>
                     <td>
-                        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox3" runat="server" Enabled ="false"></asp:TextBox>
                     </td>
                     <td></td>
                     <td></td>
                   </tr>
                   <tr>
-                    <td colspan="7">
+                      <th>
                         <telerik:RadLabel ID="RadLabel6" Text="Fecha de Respuesta:" runat="server"></telerik:RadLabel>
+                    </th>
+                    <td colspan="7">
+                        <telerik:RadDatePicker ID="RadDatePicker4" runat="server"></telerik:RadDatePicker>
                     </td>
                   </tr>
                   <tr>
@@ -100,12 +103,16 @@
                   <tr>
                     <td colspan="7">
                         <telerik:RadGrid RenderMode="Classic" Width="100%" Height="300px" ID="RadGrid2" runat="server" AllowPaging="True" AllowSorting="True"
-                     AllowFilteringByColumn="True"
+                     AllowFilteringByColumn="false"  PageSize="5" AllowRowSelect="true" OnItemCommand="RadGrid2_ItemCommand"
                      CellSpacing="0" GridLines="None">
                     <GroupingSettings CaseSensitive="false" />
-                    <MasterTableView AutoGenerateColumns="false" TableLayout="Fixed">
-                        <ColumnGroups>
-                            <telerik:GridColumnGroup Name="GeneralInformation" HeaderText="Folio"
+
+                            <ClientSettings Selecting-AllowRowSelect="true" EnablePostBackOnRowClick="true" ></ClientSettings>
+                    <%--<MasterTableView AutoGenerateColumns="false" TableLayout="Fixed">--%>
+                    <MasterTableView TableLayout="Fixed">
+                        
+                        <%--<ColumnGroups>
+                            <telerik:GridColumnGroup Name="Folio" HeaderText="Folio"
                                 HeaderStyle-HorizontalAlign="Center" />
                             <telerik:GridColumnGroup Name="SpecificInformation" HeaderText="Ingreso"
                                 HeaderStyle-HorizontalAlign="Center" />
@@ -123,7 +130,7 @@
                                 HeaderStyle-HorizontalAlign="Center" />
                             <telerik:GridColumnGroup Name="BookingInformation" HeaderText="Empresa"
                                 HeaderStyle-HorizontalAlign="Center" />
-                        </ColumnGroups>
+                        </ColumnGroups>--%>
                         </MasterTableView>
                     </telerik:RadGrid>
                     </td>
@@ -159,15 +166,15 @@
                      var toolBar = sender;
                      var button = args.get_item();
 
-                     if (typeof (Page_ClientValidate) == 'function') { Page_ClientValidate(); }
+                     //if (typeof (Page_ClientValidate) == 'function') { Page_ClientValidate(); }
 
-                     switch (button.get_value()) {
-                         case "1":
-                             if (!Page_IsValid) {
-                                 CallClientShow();
-                             }
-                             break;
-                     }
+                     //switch (button.get_value()) {
+                     //    case "1":
+                     //        if (!Page_IsValid) {
+                     //            CallClientShow();
+                     //        }
+                     //        break;
+                     //}
                  }
 
                  function CallClientShow() {

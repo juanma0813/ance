@@ -101,7 +101,7 @@
                   </tr>
                   <tr>
                     <td colspan="7">
-                        <telerik:RadGrid RenderMode="Classic" Width="100%" Height="300px" ID="RadGrid2" runat="server" AllowPaging="True" AllowSorting="True"
+                     <%--   <telerik:RadGrid RenderMode="Classic" Width="100%" Height="300px" ID="RadGrid2" runat="server" AllowPaging="True" AllowSorting="True"
                      AllowFilteringByColumn="True"
                      CellSpacing="0" GridLines="None">
                     <GroupingSettings CaseSensitive="false" />
@@ -124,6 +124,39 @@
                             <telerik:GridColumnGroup Name="BookingInformation" HeaderText="Consecutivo"
                                 HeaderStyle-HorizontalAlign="Center" />
                         </ColumnGroups>
+                        </MasterTableView>
+                    </telerik:RadGrid>--%>
+
+
+                          <telerik:RadGrid RenderMode="Classic" Width="100%" Height="300px" ID="RadGrid2" runat="server" AllowPaging="True" AllowSorting="True"
+                     AllowFilteringByColumn="false"  PageSize="5" AllowRowSelect="true" OnItemCommand="RadGrid2_ItemCommand"
+                     CellSpacing="0" GridLines="None">
+                    <GroupingSettings CaseSensitive="false" />
+
+                            <ClientSettings Selecting-AllowRowSelect="true" EnablePostBackOnRowClick="true" ></ClientSettings>
+                    <%--<MasterTableView AutoGenerateColumns="false" TableLayout="Fixed">--%>
+                    <MasterTableView TableLayout="Fixed">
+                        
+                        <%--<ColumnGroups>
+                            <telerik:GridColumnGroup Name="Folio" HeaderText="Folio"
+                                HeaderStyle-HorizontalAlign="Center" />
+                            <telerik:GridColumnGroup Name="SpecificInformation" HeaderText="Ingreso"
+                                HeaderStyle-HorizontalAlign="Center" />
+                            <telerik:GridColumnGroup Name="BookingInformation" HeaderText="Remitente"
+                                HeaderStyle-HorizontalAlign="Center" />
+                            <telerik:GridColumnGroup Name="BookingInformation" HeaderText="Máxima"
+                                HeaderStyle-HorizontalAlign="Center" />
+                            <telerik:GridColumnGroup Name="BookingInformation" HeaderText="Real"
+                                HeaderStyle-HorizontalAlign="Center" />
+                            <telerik:GridColumnGroup Name="BookingInformation" HeaderText="Vencimiento"
+                                HeaderStyle-HorizontalAlign="Center" />
+                            <telerik:GridColumnGroup Name="BookingInformation" HeaderText="Requiere Respuesta"
+                                HeaderStyle-HorizontalAlign="Center" />
+                            <telerik:GridColumnGroup Name="BookingInformation" HeaderText="Correo Remitente"
+                                HeaderStyle-HorizontalAlign="Center" />
+                            <telerik:GridColumnGroup Name="BookingInformation" HeaderText="Empresa"
+                                HeaderStyle-HorizontalAlign="Center" />
+                        </ColumnGroups>--%>
                         </MasterTableView>
                     </telerik:RadGrid>
                     </td>

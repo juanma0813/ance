@@ -179,11 +179,11 @@
     Private Sub getComites()
 
         Dim lst As New List(Of Entidades.getComites)
-        lst = Proceso.getComites_Get("CT 14", "SC 14 A")
+        lst = Proceso.getComites_Get()
 
 
         RadDropDownList2.Items.Clear()
-        listaComites = Proceso.getComites_Get("CT 14", "SC 14 A")
+        listaComites = Proceso.getComites_Get()
 
         For Each item As Entidades.getComites In listaComites
             Dim item_ As New Telerik.Web.UI.DropDownListItem()

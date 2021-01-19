@@ -1179,24 +1179,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Cargos._RadLabel7">
-<summary>
-Control RadLabel7.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:Normanet_app.Cargos._TextBox3">
-<summary>
-Control TextBox3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:Normanet_app.Cargos._RadLabel2">
 <summary>
 Control RadLabel2.
@@ -1335,6 +1317,24 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Normanet_app.Cargos._block">
 <summary>
 Control block.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Cargos._rfvDescripcion">
+<summary>
+Control rfvDescripcion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Cargos._rfvDependencia">
+<summary>
+Control rfvDependencia.
 </summary>
 <remarks>
 Campo generado automáticamente.

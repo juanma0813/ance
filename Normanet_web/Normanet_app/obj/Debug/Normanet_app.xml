@@ -1406,137 +1406,146 @@ To modify move field declaration from designer file to code-behind file.
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._ralLoad">
 <summary>
-ralLoad control.
+Control ralLoad.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._ramManajer">
 <summary>
-ramManajer control.
+Control ramManajer.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._rapContenedor">
 <summary>
-rapContenedor control.
+Control rapContenedor.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._RadLabel7">
 <summary>
-RadLabel7 control.
+Control RadLabel7.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._TextBox2">
 <summary>
-TextBox2 control.
+Control TextBox2.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._RadDropDownList1">
 <summary>
-RadDropDownList1 control.
+Control RadDropDownList1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._btnCuentas">
 <summary>
-btnCuentas control.
+Control btnCuentas.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._block">
 <summary>
-block control.
+Control block.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.CategoriaRevEditorial._rfvNombreTRE">
+<summary>
+Control rfvNombreTRE.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._notCampos">
 <summary>
-notCampos control.
+Control notCampos.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._vsCampos">
 <summary>
-vsCampos control.
+Control vsCampos.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._UpdatePanel2">
 <summary>
-UpdatePanel2 control.
+Control UpdatePanel2.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._lblMensaje">
 <summary>
-lblMensaje control.
+Control lblMensaje.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._UpdatePanel3">
 <summary>
-UpdatePanel3 control.
+Control UpdatePanel3.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._cmdAceptar">
 <summary>
-cmdAceptar control.
+Control cmdAceptar.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.CategoriaRevEditorial._cmdCancelar">
 <summary>
-cmdCancelar control.
+Control cmdCancelar.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Categorias._ralLoad">
@@ -3197,191 +3206,191 @@ To modify move field declaration from designer file to code-behind file.
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._ralLoad">
 <summary>
-ralLoad control.
+Control ralLoad.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._ramManajer">
 <summary>
-ramManajer control.
+Control ramManajer.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._rapContenedor">
 <summary>
-rapContenedor control.
+Control rapContenedor.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._TextBox6">
 <summary>
-TextBox6 control.
+Control TextBox6.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._RadTreeView1">
 <summary>
-RadTreeView1 control.
+Control RadTreeView1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._RadLabel3">
 <summary>
-RadLabel3 control.
+Control RadLabel3.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._RadTextBox3">
 <summary>
-RadTextBox3 control.
+Control RadTextBox3.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._RadLabel1">
 <summary>
-RadLabel1 control.
+Control RadLabel1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._RadTextBox1">
 <summary>
-RadTextBox1 control.
+Control RadTextBox1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._RadLabel2">
 <summary>
-RadLabel2 control.
+Control RadLabel2.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._RadDropDownList1">
 <summary>
-RadDropDownList1 control.
+Control RadDropDownList1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._RadLabel4">
 <summary>
-RadLabel4 control.
+Control RadLabel4.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._btnCuentas">
 <summary>
-btnCuentas control.
+Control btnCuentas.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._block">
 <summary>
-block control.
+Control block.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._notCampos">
 <summary>
-notCampos control.
+Control notCampos.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._vsCampos">
 <summary>
-vsCampos control.
+Control vsCampos.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._UpdatePanel2">
 <summary>
-UpdatePanel2 control.
+Control UpdatePanel2.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._lblMensaje">
 <summary>
-lblMensaje control.
+Control lblMensaje.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._UpdatePanel3">
 <summary>
-UpdatePanel3 control.
+Control UpdatePanel3.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._cmdAceptar">
 <summary>
-cmdAceptar control.
+Control cmdAceptar.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.PuntosRevEditorial._cmdCancelar">
 <summary>
-cmdCancelar control.
+Control cmdCancelar.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Remitente._ralLoad">

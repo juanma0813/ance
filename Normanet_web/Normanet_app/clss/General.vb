@@ -56,7 +56,7 @@ Module General
 
     Public Sub MsgJquery(obj As Object, Mensaje As String, Titulo As String)
         Mensaje = Mensaje.Replace("'", "").Replace("""", "").Replace(vbCrlf, "")
-        ScriptManager.RegisterClientScriptBlock(obj, obj.GetType, Guid.NewGuid.ToString, "$('<div><br /><div style=""text-align:center;"">" & Mensaje & "</div></div>').dialog({title:'" & Titulo & "',zIndex:'4001',autoOpen:true,modal:true,buttons: {'Aceptar': function() {$( this ).dialog('close');}}});", True)
+        ScriptManager.RegisterClientScriptBlock(obj, obj.GetType, Guid.NewGuid.ToString, "$('<div><br /><div style=""text-align:center;"">" & Mensaje & "</div></div>').dialog({title:'" & Titulo & "',zIndex:'4001',autoOpen:true,modal:true,buttons: {'Aceptar': function() {$( this ).dialog('close');)}}});", True)
     End Sub
 
     ''' <summary>

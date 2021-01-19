@@ -27,11 +27,11 @@
             <table style="width: 100%; height:40px;" class="SinBorde">
                 <tr>
                 <th>
-                    <telerik:RadLabel ID="RadLabel7" Text="Descripción:" runat="server"></telerik:RadLabel>
+                    <telerik:RadLabel ID="RadLabel7" Text="Nombre revisión:" runat="server"></telerik:RadLabel>
                 </th>
                 <td style="text-align:left">
                     <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-                    <telerik:RadDropDownList ID="RadDropDownList1" runat="server"></telerik:RadDropDownList>
+                    <telerik:RadDropDownList ID="RadDropDownList1" runat="server" DefaultMessage="Seleccione..." AutoPostBack="true" OnItemSelected="RadDropDownList1_ItemSelected"></telerik:RadDropDownList>
                 </td>
               </tr>
                
@@ -42,7 +42,7 @@
         <telerik:RadToolBar ID="btnCuentas" Runat="server" Height="32" Width="100%" SkinID="SkinManager" OnClientButtonClicking="clientButtonClicking">  
             <Items>
                 <telerik:RadToolBarButton Enabled="true" Value="0" ImageUrl="../Imagenes/Botoneras/New.png" Text="Nuevo" ToolTip ="Nuevo"/>
-                <telerik:RadToolBarButton Enabled="true" Value="2" ImageUrl="../Imagenes/Botoneras/Edit.png" Text="Editar"  ToolTip="Editar"/>
+                <telerik:RadToolBarButton Enabled="true" Value="2" ImageUrl="../Imagenes/Botoneras/Edit.png" Text="Editar"  ToolTip="Editar" ValidationGroup="PersonalInfoGroup"/>
                 <telerik:RadToolBarButton Enabled="true" Value="3" ImageUrl="../Imagenes/Botoneras/redo.png" Text="Deshacer"  ToolTip="Deshacer"/>
                 <telerik:RadToolBarButton Enabled="true" Value="1" ImageUrl="../Imagenes/Botoneras/save.png" Text="Guardar"  ToolTip="Guardar" ValidationGroup="PersonalInfoGroup"/>
                 <telerik:RadToolBarButton Enabled="false" Width="50px"></telerik:RadToolBarButton>
@@ -66,6 +66,11 @@
                                  CallClientShow();
                              }
                              break;
+                         case "2":
+                             if (!Page_IsValid) {
+                                 CallClientShow();
+                             }
+                             break;
                      }
                  }
 
@@ -76,8 +81,8 @@
              </script>
         </telerik:RadCodeBlock>
         <div id="Validadores">
-        <%--      <asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="txtNombre" ErrorMessage="Nombre" Display="None" ValidationGroup="PersonalInfoGroup" />
-          <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="txtEmpresa" ErrorMessage="Empresa" Display="None" ValidationGroup="PersonalInfoGroup" />
+             <asp:RequiredFieldValidator runat="server" ID="rfvNombreTRE" ControlToValidate="TextBox2" ErrorMessage="Nombre revisión" Display="None" ValidationGroup="PersonalInfoGroup" />
+          <%-- <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="txtEmpresa" ErrorMessage="Empresa" Display="None" ValidationGroup="PersonalInfoGroup" />
             <asp:RequiredFieldValidator runat="server" ID="rfvCorreo" ControlToValidate="txtCorreo" ErrorMessage="Correo" Display="None" ValidationGroup="PersonalInfoGroup" />--%>
         </div>
         <telerik:RadNotification ID="notCampos" runat="server" Animation="Fade" ContentIcon="warning" EnableRoundedCorners="True" EnableShadow="True" Position="Center" SkinID="SkinManager" Title="Problemas con campos" TitleIcon="warning" Width="261px" AutoCloseDelay="6000">

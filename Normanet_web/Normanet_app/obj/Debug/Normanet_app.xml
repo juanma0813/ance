@@ -1710,9 +1710,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Normanet_app.Comite._options">
+<summary>
+Control options.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Normanet_app.Comite._TextBox6">
 <summary>
 Control TextBox6.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Comite._Button1">
+<summary>
+Control Button1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1755,9 +1773,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Comite._TextBox1">
+<member name="F:Normanet_app.Comite._txtcomitecnico">
 <summary>
-Control TextBox1.
+Control txtcomitecnico.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1773,9 +1791,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Comite._TextBox2">
+<member name="F:Normanet_app.Comite._txtsubcomite">
 <summary>
-Control TextBox2.
+Control txtsubcomite.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1791,9 +1809,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Comite._TextBox3">
+<member name="F:Normanet_app.Comite._txtgrupo">
 <summary>
-Control TextBox3.
+Control txtgrupo.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1809,9 +1827,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Comite._TextBox4">
+<member name="F:Normanet_app.Comite._txtdescripcion">
 <summary>
-Control TextBox4.
+Control txtdescripcion.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1827,9 +1845,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Comite._TextBox5">
+<member name="F:Normanet_app.Comite._txtobjetivo">
 <summary>
-Control TextBox5.
+Control txtobjetivo.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1911,6 +1929,42 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Normanet_app.Comite._rfvCorreo">
 <summary>
 Control rfvCorreo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Comite._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Comite._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Comite._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Comite._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
 </summary>
 <remarks>
 Campo generado automáticamente.

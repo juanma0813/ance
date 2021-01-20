@@ -50,7 +50,7 @@
                     <asp:TextBox ID="TextBox3" Width="100%" runat="server"></asp:TextBox>
                 </td>
                 <th>
-                    <telerik:RadLabel ID="RadLabel2" Text="Clave:" runat="server"></telerik:RadLabel>
+                    <telerik:RadLabel ID="RadLabel2" Text="id remitente:" runat="server"></telerik:RadLabel>
                 </th>
               </tr>
               <tr>
@@ -67,17 +67,19 @@
                     <asp:TextBox ID="TextBox5" Width="100%" runat="server"></asp:TextBox>
                 </td>
                 <td style="Width:10%">
-                    <asp:TextBox ID="TextBox6" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox6" runat="server" Enabled="false"></asp:TextBox>
                 </td>
               </tr>
               <tr>
-                <td colspan="5">
-                    <telerik:RadGrid RenderMode="Classic" Width="100%" Height="300px" ID="RadGrid1" runat="server" AllowPaging="True" AllowSorting="True"
-                     AllowFilteringByColumn="True"
+                <td colspan="7">
+                    <telerik:RadGrid RenderMode="Classic" Width="100%" Height="350px" ID="RadGrid1" runat="server" AllowPaging="True" AllowSorting="True"
+                     AllowFilteringByColumn="false"  PageSize="5" AllowRowSelect="true" OnItemCommand="RadGrid1_ItemCommand"
                      CellSpacing="0" GridLines="None">
-                    <GroupingSettings CaseSensitive="false" />
-                    <MasterTableView AutoGenerateColumns="false" TableLayout="Fixed">
-                        <ColumnGroups>
+                    <GroupingSettings CaseSensitive="false"/>
+                    <ClientSettings Selecting-AllowRowSelect="true" EnablePostBackOnRowClick="true" ></ClientSettings>
+                    <%--<MasterTableView AutoGenerateColumns="false" TableLayout="Fixed">--%>
+                    <MasterTableView TableLayout="Fixed">
+                        <%--<ColumnGroups>
                             <telerik:GridColumnGroup Name="GeneralInformation" HeaderText="IdRemitente"
                                 HeaderStyle-HorizontalAlign="Center" />
                             <telerik:GridColumnGroup Name="SpecificInformation" HeaderText="Nombre"
@@ -92,7 +94,7 @@
                                 HeaderStyle-HorizontalAlign="Center" />
                             <telerik:GridColumnGroup Name="BookingInformation" HeaderText="Empresa"
                                 HeaderStyle-HorizontalAlign="Center" />
-                        </ColumnGroups>
+                        </ColumnGroups>--%>
                         </MasterTableView>
                     </telerik:RadGrid>
                 </td>
@@ -103,7 +105,7 @@
         <telerik:RadToolBar ID="btnCuentas" Runat="server" Height="32" Width="100%" SkinID="SkinManager" OnClientButtonClicking="clientButtonClicking">  
             <Items>
                 <telerik:RadToolBarButton Enabled="true" Value="0" ImageUrl="../Imagenes/Botoneras/New.png" ToolTip ="Nuevo"/>
-                <telerik:RadToolBarButton Enabled="true" Value="2" ImageUrl="../Imagenes/Botoneras/Edit.png" ToolTip="Editar"/>
+                <telerik:RadToolBarButton Enabled="true" Value="2" ImageUrl="../Imagenes/Botoneras/Edit.png" ToolTip="Editar" ValidationGroup="PersonalInfoGroup"/>
                 <telerik:RadToolBarButton Enabled="true" Value="3" ImageUrl="../Imagenes/Botoneras/redo.png" ToolTip="Deshacer"/>
                 <telerik:RadToolBarButton Enabled="true" Value="1" ImageUrl="../Imagenes/Botoneras/save.png" ToolTip="Guardar" ValidationGroup="PersonalInfoGroup"/>
                 <telerik:RadToolBarButton Enabled="true" Value="8" ImageUrl="../Imagenes/Botoneras/Catalogos.png" ToolTip="Resumen"/>
@@ -138,9 +140,10 @@
              </script>
         </telerik:RadCodeBlock>
         <div id="Validadores">
-        <%--      <asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="txtNombre" ErrorMessage="Nombre" Display="None" ValidationGroup="PersonalInfoGroup" />
-          <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="txtEmpresa" ErrorMessage="Empresa" Display="None" ValidationGroup="PersonalInfoGroup" />
-            <asp:RequiredFieldValidator runat="server" ID="rfvCorreo" ControlToValidate="txtCorreo" ErrorMessage="Correo" Display="None" ValidationGroup="PersonalInfoGroup" />--%>
+            <asp:RequiredFieldValidator runat="server" ID="rfvNombre" ControlToValidate="TextBox1" ErrorMessage="Nombre" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="rfvEmpresa" ControlToValidate="TextBox2" ErrorMessage="Empresa" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="rfvCorreo" ControlToValidate="TextBox4" ErrorMessage="Correo" Display="None" ValidationGroup="PersonalInfoGroup" />
+            <asp:RequiredFieldValidator runat="server" ID="rfvPuesto" ControlToValidate="TextBox3" ErrorMessage="Puesto" Display="None" ValidationGroup="PersonalInfoGroup" />
         </div>
         <telerik:RadNotification ID="notCampos" runat="server" Animation="Fade" ContentIcon="warning" EnableRoundedCorners="True" EnableShadow="True" Position="Center" SkinID="SkinManager" Title="Problemas con campos" TitleIcon="warning" Width="261px" AutoCloseDelay="6000">
             <ContentTemplate>

@@ -18,8 +18,8 @@
                 'AddWindow(Me.Page, "Test.aspx", "..:: Test ::.. - DemoMenuBaseMultiVentanas", 700, 550, False)
                 'ScriptManager.RegisterStartupScript(Me.Page, Page.GetType, Guid.NewGuid.ToString, "", True)
             Case eBtnFormularios.Guardar
-                'addTipoRevision()
-                MsgJquery(UpdatePanel2, "Accion guardada correctamente", "..:: Borrame ::..")
+                addTipoRevision()
+                'MsgJquery(UpdatePanel2, "Accion guardada correctamente", "..:: Borrame ::..")
             Case eBtnFormularios.Deshacer
                 lblMensaje.Text = "�Estas seguro de eliminar los datos?"
                 MsgJqueryConfirm(Me.Page, "pnlConfirm", "..:: Demo ::..", UpdatePanel3.ClientID)

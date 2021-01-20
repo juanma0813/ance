@@ -133,3 +133,4 @@ C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\obj\Debug\Norman
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\obj\Debug\Normanet_app.dll
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\obj\Debug\Normanet_app.xml
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\obj\Debug\Normanet_app.pdb
+C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.vbprojAssemblyReference.cache

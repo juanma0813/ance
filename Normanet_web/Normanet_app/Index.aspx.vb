@@ -26,7 +26,7 @@ Public Class Index
             Case eBtnPrincipal.Puntos_Revisión_Editoria
                 OpenWindow("Catalogos/PuntosRevEditorial.aspx", "..:: Puntos de Revisión Editorial ::..", 700, 400)
             Case eBtnPrincipal.Remitentes
-                OpenWindow("Catalogos/Remitente.aspx", "..:: Remitentes ::..", 700, 500)
+                OpenWindow("Catalogos/Remitente.aspx", "..:: Remitentes ::..", 1000, 550)
             Case eBtnPrincipal.ReporteAsistencia
                 OpenWindow("Catalogos/ReporteAsistencia.aspx", "..:: Reporte Asistencia ::..", 700, 500)
             Case eBtnPrincipal.Representacion

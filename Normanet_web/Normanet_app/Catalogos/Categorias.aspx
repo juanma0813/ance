@@ -42,10 +42,10 @@
         <telerik:RadToolBar ID="btnCuentas" Runat="server" Height="32" Width="100%" SkinID="SkinManager" OnClientButtonClicking="clientButtonClicking">  
             <Items>
                 <telerik:RadToolBarButton Enabled="true" Value="0" ImageUrl="../Imagenes/Botoneras/New.png" Text="Nuevo" ToolTip ="Nuevo"/>
-                <telerik:RadToolBarButton Enabled="true" Value="2" ImageUrl="../Imagenes/Botoneras/Edit.png" Text="Editar" ToolTip="Editar"/>
+                <telerik:RadToolBarButton Enabled="true" Value="2" ImageUrl="../Imagenes/Botoneras/Edit.png" Text="Editar" ToolTip="Editar" ValidationGroup="PersonalInfoGroup"/>
                 <telerik:RadToolBarButton Enabled="true" Value="3" ImageUrl="../Imagenes/Botoneras/redo.png" Text="Deshacer"  ToolTip="Deshacer"/>
                 <telerik:RadToolBarButton Enabled="true" Value="1" ImageUrl="../Imagenes/Botoneras/save.png"  Text="Guardar" ToolTip="Guardar" ValidationGroup="PersonalInfoGroup"/>
-                 <telerik:RadToolBarButton Enabled="false" Width="50px"></telerik:RadToolBarButton>
+                <telerik:RadToolBarButton Enabled="false" Width="50px"></telerik:RadToolBarButton>
                 <telerik:RadToolBarButton Enabled="true" Value="7" ImageUrl="../Imagenes/Botoneras/delete_32.png" Text="Eliminar"  ToolTip="Eliminar"/>
                 <telerik:RadToolBarButton Enabled="true" Value="15" ImageUrl="../Imagenes/Botoneras/exit.png"  Text="Salir" ToolTip="Salir"/>
                 
@@ -63,6 +63,11 @@
 
                      switch (button.get_value()) {
                          case "1":
+                             if (!Page_IsValid) {
+                                 CallClientShow();
+                             }
+                             break;
+                         case "2":
                              if (!Page_IsValid) {
                                  CallClientShow();
                              }

@@ -110,7 +110,6 @@ C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_ap
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.dll
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.xml
 C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.pdb
-C:\Users\fsimon\Desktop\NormaNet\Normanet_web\Normanet_app\obj\Debug\Normanet_app.vbprojAssemblyReference.cache
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\bin\Normanet_app.dll.config
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\bin\Normanet_app.dll
 C:\Users\ohernandez\source\repos\ance\Normanet_web\Normanet_app\bin\Normanet_app.pdb

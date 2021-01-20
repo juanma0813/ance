@@ -20,13 +20,13 @@
                 'ScriptManager.RegisterStartupScript(Me.Page, Page.GetType, Guid.NewGuid.ToString, "", True)
             Case eBtnFormularios.Guardar
                 addCategoriasNoticias()
-                'MsgJquery(UpdatePanel2, "Accion guardada correctamente", "..:: Borrame ::..")
             Case eBtnFormularios.Deshacer
-                lblMensaje.Text = "�Estas seguro de eliminar los datos?"
-                MsgJqueryConfirm(Me.Page, "pnlConfirm", "..:: Demo ::..", UpdatePanel3.ClientID)
+                lblMensaje.Text = "¿Estas seguro de eliminar los datos?"
+                MsgJqueryConfirm(Me.Page, "pnlConfirm", "..:: Categorias ::..", UpdatePanel3.ClientID)
             Case eBtnFormularios.Eliminar
                 deleteCategoriasNoticias()
             Case eBtnFormularios.Salir
+                SalirPagina()
 
         End Select
     End Sub
@@ -105,4 +105,20 @@
 
     End Sub
 
+    Private Sub Recargar()
+        Response.Redirect(Request.Url.AbsoluteUri)
+    End Sub
+
+    Private Sub SalirPagina()
+        ScriptManager.RegisterStartupScript(Me.Page, Page.GetType, Guid.NewGuid.ToString, "window.close();", True)
+    End Sub
+
+    Protected Sub cmdAceptar_Click(sender As Object, e As ImageClickEventArgs) Handles cmdAceptar.Click
+        ScriptManager.RegisterStartupScript(Me.Page, Me.Page.GetType, Guid.NewGuid.ToString, "$('#pnlConfirm').dialog('close');", True)
+        Recargar()
+    End Sub
+
+    Protected Sub cmdCancelar_Click(sender As Object, e As ImageClickEventArgs) Handles cmdCancelar.Click
+        ScriptManager.RegisterStartupScript(Me.Page, Me.Page.GetType, Guid.NewGuid.ToString, "$('#pnlConfirm').dialog('close');", True)
+    End Sub
 End Class

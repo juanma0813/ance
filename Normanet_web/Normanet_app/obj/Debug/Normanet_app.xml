@@ -1719,9 +1719,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Normanet_app.Comite._options">
+<summary>
+Control options.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Normanet_app.Comite._TextBox6">
 <summary>
 Control TextBox6.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Comite._Button1">
+<summary>
+Control Button1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1764,9 +1782,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Comite._TextBox1">
+<member name="F:Normanet_app.Comite._txtcomitecnico">
 <summary>
-Control TextBox1.
+Control txtcomitecnico.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1782,9 +1800,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Comite._TextBox2">
+<member name="F:Normanet_app.Comite._txtsubcomite">
 <summary>
-Control TextBox2.
+Control txtsubcomite.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1800,9 +1818,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Comite._TextBox3">
+<member name="F:Normanet_app.Comite._txtgrupo">
 <summary>
-Control TextBox3.
+Control txtgrupo.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1818,9 +1836,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Comite._TextBox4">
+<member name="F:Normanet_app.Comite._txtdescripcion">
 <summary>
-Control TextBox4.
+Control txtdescripcion.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1836,9 +1854,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:Normanet_app.Comite._TextBox5">
+<member name="F:Normanet_app.Comite._txtobjetivo">
 <summary>
-Control TextBox5.
+Control txtobjetivo.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1920,6 +1938,42 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Normanet_app.Comite._rfvCorreo">
 <summary>
 Control rfvCorreo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Comite._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Comite._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Comite._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Normanet_app.Comite._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -4535,173 +4589,173 @@ To modify move field declaration from designer file to code-behind file.
 </member>
 <member name="F:Normanet_app.Index._form1">
 <summary>
-form1 control.
+Control form1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._SkinManager">
 <summary>
-SkinManager control.
+Control SkinManager.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._RadFormDecorator1">
 <summary>
-RadFormDecorator1 control.
+Control RadFormDecorator1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._ralpLoad">
 <summary>
-ralpLoad control.
+Control ralpLoad.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._RadPersistenceManager1">
 <summary>
-RadPersistenceManager1 control.
+Control RadPersistenceManager1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._RadAjaxManager1">
 <summary>
-RadAjaxManager1 control.
+Control RadAjaxManager1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._rtbTitulo">
 <summary>
-rtbTitulo control.
+Control rtbTitulo.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._rbbRibbon">
 <summary>
-rbbRibbon control.
+Control rbbRibbon.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._RibbonBarTab1">
 <summary>
-RibbonBarTab1 control.
+Control RibbonBarTab1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._RibbonBarGroup1">
 <summary>
-RibbonBarGroup1 control.
+Control RibbonBarGroup1.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._RibbonBarTab2">
 <summary>
-RibbonBarTab2 control.
+Control RibbonBarTab2.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._RibbonBarGroup11">
 <summary>
-RibbonBarGroup11 control.
+Control RibbonBarGroup11.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._hidUsuario">
 <summary>
-hidUsuario control.
+Control hidUsuario.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._hidInicializarNotificaciones">
 <summary>
-hidInicializarNotificaciones control.
+Control hidInicializarNotificaciones.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._pnlUsuario">
 <summary>
-pnlUsuario control.
+Control pnlUsuario.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._lblUsuario">
 <summary>
-lblUsuario control.
+Control lblUsuario.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._rdWndMngPrincipal">
 <summary>
-rdWndMngPrincipal control.
+Control rdWndMngPrincipal.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._CodeBlock">
 <summary>
-CodeBlock control.
+Control CodeBlock.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.Index._udpCBJquery">
 <summary>
-udpCBJquery control.
+Control udpCBJquery.
 </summary>
 <remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
 <member name="F:Normanet_app.mpFormularios._Head2">
